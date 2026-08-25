@@ -1,0 +1,5236 @@
+{
+  "generated": "2026-08-25T06:28:08.438Z",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa"
+  ],
+  "pages": [
+    {
+      "url": "https://ccd.edu/",
+      "title": "Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/",
+      "slug": "home",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 8,
+          "firstTargets": [
+            "#main-content",
+            ".field__item:nth-child(1) > .page-anchor[aria-label=\"Open this option\"][data-uw-rm-empty-ctrl=\"\"]",
+            "#pathway",
+            ".field__item:nth-child(7) > .page-anchor[aria-label=\"Open this option\"][data-uw-rm-empty-ctrl=\"\"]",
+            ".field__item:nth-child(9) > .page-anchor[aria-label=\"Open this option\"][data-uw-rm-empty-ctrl=\"\"]"
+          ]
+        }
+      ],
+      "violationTotal": 8,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 70,
+          "firstTargets": [
+            "#slick-slide11 > .slide__content > .slide__caption > .slide__description > .banner-overlay > .views-field-title.views-field",
+            "#slick-slide11 > .slide__content > .slide__caption > .slide__description > .banner-overlay > .views-field-body.views-field > .field-content > p",
+            "#slick-slide11 > .slide__content > .slide__caption > .slide__description > .banner-overlay > .views-field-field-banner-action-button.views-field > a[data-uw-rm-brl=\"PR\"]"
+          ]
+        },
+        {
+          "id": "video-caption",
+          "impact": "critical",
+          "help": "<video> elements must have captions",
+          "wcag": [
+            "wcag2a",
+            "wcag122"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#bg-video-63027"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/2026-graduation-commencement",
+      "title": "2026 Graduation & Commencement | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/2026-graduation-commencement",
+      "slug": "2026-graduation-commencement",
+      "violations": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "iframe[width=\"100%\"] #advancedBtn > button"
+          ]
+        },
+        {
+          "id": "frame-title",
+          "impact": "serious",
+          "help": "Frames must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/frame-title?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "iframe[width=\"100%\"]"
+          ]
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag111"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "iframe[width=\"100%\"] img[src$=\"logo-popup.png\"]"
+          ]
+        }
+      ],
+      "violationTotal": 3,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 31,
+          "firstTargets": [
+            ".home-text",
+            ".breadcrumb-item.active > span",
+            ".hero-details > .field--name-field-paragraph-subtitle.field--type-string.field--label-hidden"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/about/accreditation/your-right-know-legal-and-consumer-information",
+      "title": "Accreditation - Your Right to Know - Legal and Consumer Information | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/about/accreditation/your-right-know-legal-and-consumer-information",
+      "slug": "about-accreditation-your-right-know-legal-and-consumer-information",
+      "violations": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#block-ccd-breadcrumb-block > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .breadcrumb-item:nth-child(1) > a[href=\"/\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 6,
+          "firstTargets": [
+            ".hero-breadcrumb > .block-ccd-breadcrumb-block.block-ccd-tweaks.block-content > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .breadcrumb-item:nth-child(1) > a[href=\"/\"] > .home-text",
+            ".hero-breadcrumb > .block-ccd-breadcrumb-block.block-ccd-tweaks.block-content > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .breadcrumb-item:nth-child(2) > a[href$=\"about\"]",
+            ".hero-breadcrumb > .block-ccd-breadcrumb-block.block-ccd-tweaks.block-content > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .breadcrumb-item:nth-child(3) > a[href$=\"accreditation\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/about/campus-information",
+      "title": "About CCD - Campus Information | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/about/campus-information",
+      "slug": "about-campus-information",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/about/community-clinics",
+      "title": "About CCD - Community Clinics | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/about/community-clinics",
+      "slug": "about-community-clinics",
+      "violations": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "a[href=\"/\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 6,
+          "firstTargets": [
+            ".paragraph-id-5961 > .paragraph-inner > .cta-card-details > .cta-card-description > .text-title > .field--name-field-paragraph-html-title.field--type-text.text-formatted",
+            ".paragraph-id-5961 > .paragraph-inner > .cta-card-details > .cta-card-description > .text-text > .field--name-field-paragraph-text.field--type-text-long.text-formatted > p",
+            ".paragraph-id-5961 > .paragraph-inner > .cta-card-details > .text-link > .field--name-field-paragraph-cta-link.field--type-link.field--label-hidden > .btn-link.btn[target=\"_self\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/about/vision-mission-strategic-plan",
+      "title": "Office of the President - Vision, Mission, & Strategic Plan | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/about/vision-mission-strategic-plan",
+      "slug": "about-vision-mission-strategic-plan",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 11,
+          "firstTargets": [
+            ".page-title",
+            "#block-ccd-breadcrumb-block > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .breadcrumb-item:nth-child(1) > a[href=\"/\"] > .home-text",
+            "#block-ccd-breadcrumb-block > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .breadcrumb-item.active > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/academic-advising-and-student-success-center/learning-options",
+      "title": "Academic Advising - Learning Options | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/academic-advising-and-student-success-center/learning-options",
+      "slug": "academic-advising-and-student-success-center-learning-options",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 12,
+          "firstTargets": [
+            ".page-title",
+            "#block-ccd-breadcrumb-block > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .breadcrumb-item:nth-child(1) > a[href=\"/\"][data-uw-original-href=\"/\"][data-uw-rm-brl=\"PR\"] > .home-text",
+            "#block-ccd-breadcrumb-block > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .active.breadcrumb-item > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/academic-advising-student-success-center",
+      "title": "Academic Advising & Student Success Center | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/academic-advising-student-success-center",
+      "slug": "academic-advising-student-success-center",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#main-content",
+            "#drop-in",
+            "#student-success"
+          ]
+        }
+      ],
+      "violationTotal": 3,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 20,
+          "firstTargets": [
+            ".page-title",
+            ".paragraph-id-3910 > .paragraph-inner > .cta-card-details > .cta-card-description > .text-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted",
+            ".paragraph-id-3910 > .paragraph-inner > .cta-card-details > .cta-card-description > .text-text > .field--name-field-paragraph-text.field--type-text-long.text-formatted > p"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/academic-calendar",
+      "title": "Academic Calendar | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/academic-calendar",
+      "slug": "academic-calendar",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h1"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/academic-pathways",
+      "title": "Pathways | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/academic-pathways",
+      "slug": "academic-pathways",
+      "violations": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 48,
+          "firstTargets": [
+            ".subqueue-group-1.views-row:nth-child(1) > .views-field-rendered-entity.views-field > .field-content > .views-field > a",
+            ".subqueue-group-1.views-row:nth-child(1) > .views-field-rendered-entity.views-field > .field-content > .views-field > .field--name-field-term-image.field--type-entity-reference.field--label-hidden > a",
+            ".subqueue-group-1.views-row:nth-child(1) > .views-field-rendered-entity.views-field > .field-content > .views-field > .field--name-field-term-image.field--type-entity-reference.field--label-hidden > .media-view-mode-square.media--type-image > a",
+            ".subqueue-group-1.views-row:nth-child(1) > .views-field-rendered-entity.views-field > .field-content > .views-field > .field--name-field-term-image.field--type-entity-reference.field--label-hidden > .media-view-mode-square.media--type-image > .field--name-field-media-image.field--type-image.field--label-visually_hidden > a:nth-child(1)",
+            ".views-field > a[href$=\"business\"]"
+          ]
+        }
+      ],
+      "violationTotal": 48,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".hero-title",
+            ".hero-subtitle"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/academics",
+      "title": "Academics | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/academics",
+      "slug": "academics",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 41,
+          "firstTargets": [
+            ".paragraph-id-75 > .paragraph-inner.clearfix > .pride-point-value > .field--name-field-paragraph-value.field--type-string.field--label-hidden",
+            ".paragraph-id-75 > .paragraph-inner.clearfix > .field--name-field-paragraph-body.field--type-text-long.text-formatted > p",
+            ".paragraph-id-74 > .paragraph-inner.clearfix > .pride-point-value > .field--name-field-paragraph-value.field--type-string.field--label-hidden"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/accessibility-center",
+      "title": "Accessibility Center | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/accessibility-center",
+      "slug": "accessibility-center",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 25,
+          "firstTargets": [
+            ".page-title",
+            ".paragraph-eyebrow > .field--name-field-paragraph-eyebrow.field--type-string.field--label-hidden",
+            ".paragraph-id-5076 > .paragraph-inner > .text-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/accreditation",
+      "title": "Accreditation | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/accreditation",
+      "slug": "accreditation",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/admissions-recruitment-outreach",
+      "title": "Admissions, Recruitment & Outreach | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/admissions-recruitment-outreach",
+      "slug": "admissions-recruitment-outreach",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 11,
+          "firstTargets": [
+            ".page-title",
+            ".field--name-field-paragraph-title",
+            ".section-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/admissions/momentum-credit-get-college-credit-what-you-know",
+      "title": "Testing Center - Momentum Credit | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/admissions/momentum-credit-get-college-credit-what-you-know",
+      "slug": "admissions-momentum-credit-get-college-credit-what-you-know",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#main-content",
+            "#contact"
+          ]
+        }
+      ],
+      "violationTotal": 2,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 11,
+          "firstTargets": [
+            ".page-title",
+            "#block-ccd-breadcrumb-block > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .breadcrumb-item:nth-child(1) > a[href=\"/\"][data-uw-original-href=\"/\"][data-uw-rm-brl=\"PR\"] > .home-text",
+            "#block-ccd-breadcrumb-block > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .breadcrumb-item.active > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/admissions/residency-requirements",
+      "title": "Office of Registration & Records - Residency Requirements | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/admissions/residency-requirements",
+      "slug": "admissions-residency-requirements",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 11,
+          "firstTargets": [
+            ".page-title",
+            "#block-ccd-breadcrumb-block > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .breadcrumb-item:nth-child(1) > a[href=\"/\"][data-uw-original-href=\"/\"][data-uw-rm-brl=\"PR\"] > .home-text",
+            "#block-ccd-breadcrumb-block > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .breadcrumb-item.active > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/advanced-manufacturing-center",
+      "title": "Advanced Manufacturing Center | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/advanced-manufacturing-center",
+      "slug": "advanced-manufacturing-center",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#player-2589 .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#main-content",
+            "#player-2589 #movie_player"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#player-2589 .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 4,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 14,
+          "firstTargets": [
+            ".page-title",
+            ".paragraph-eyebrow > .field--name-field-paragraph-eyebrow.field--type-string.field--label-hidden",
+            ".paragraph-id-2588 > .paragraph-inner > .text-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/alumni-association",
+      "title": "Alumni Association | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/alumni-association",
+      "slug": "alumni-association",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 17,
+          "firstTargets": [
+            ".page-title",
+            ".paragraph-id-4009 > .paragraph-inner > .cta-card-details > .cta-card-description > .text-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted",
+            ".paragraph-id-4009 > .paragraph-inner > .cta-card-details > .cta-card-description > .text-text > .field--name-field-paragraph-text.field--type-text-long.text-formatted > p"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/blog/cityhawk-talk",
+      "title": "| Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/blog/cityhawk-talk",
+      "slug": "blog-cityhawk-talk",
+      "violations": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".js-form-item-combine > .search-button[type=\"submit\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 5,
+          "firstTargets": [
+            "time[datetime=\"2025-09-11T12:17:38-06:00\"]",
+            "time[datetime=\"2025-09-09T08:53:15-06:00\"]",
+            "time[datetime=\"2025-07-22T14:19:08-06:00\"]",
+            "time[datetime=\"2025-07-22T08:22:31-06:00\"]",
+            "time[datetime=\"2025-07-15T08:45:01-06:00\"]"
+          ]
+        }
+      ],
+      "violationTotal": 6,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "a[href$=\"CityHawk-Talk\"]",
+            ".active.page-item > .page-link"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/calendar",
+      "title": "Events Calendar | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/calendar",
+      "slug": "calendar",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 20,
+          "firstTargets": [
+            "div:nth-child(1) > .grey.solid[target=\"\"] > .button-text",
+            "div:nth-child(2) > .grey.solid[target=\"\"] > .button-text",
+            "div:nth-child(3) > .grey.solid[target=\"\"] > .button-text",
+            "tr:nth-child(1) > .ui-datepicker-other-month.ui-datepicker-week-end.ui-datepicker-unselectable > .ui-state-default",
+            ".ui-datepicker-other-month.ui-datepicker-unselectable.ui-state-disabled:nth-child(2) > .ui-state-default"
+          ]
+        }
+      ],
+      "violationTotal": 21,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 13,
+          "firstTargets": [
+            "h1",
+            "h3[aria-level=\"2\"]",
+            "tr:nth-child(1) > .ui-datepicker-week-end.ui-datepicker-unselectable.ui-state-disabled:nth-child(7) > .ui-state-default"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/calendar/event/010826/sterile-processing-technology-information-session",
+      "title": "Sterile Processing Technology Information Session | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/calendar/event/010826/sterile-processing-technology-information-session",
+      "slug": "calendar-event-010826-sterile-processing-technology-information-session",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 20,
+          "firstTargets": [
+            "div:nth-child(1) > .grey.solid[target=\"\"] > .button-text",
+            "div:nth-child(2) > .grey.solid[target=\"\"] > .button-text",
+            "div:nth-child(3) > .grey.solid[target=\"\"] > .button-text",
+            "tr:nth-child(1) > .ui-datepicker-other-month.ui-datepicker-week-end.ui-datepicker-unselectable > .ui-state-default",
+            ".ui-datepicker-other-month.ui-datepicker-unselectable.ui-state-disabled:nth-child(2) > .ui-state-default"
+          ]
+        }
+      ],
+      "violationTotal": 21,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 12,
+          "firstTargets": [
+            ".content > h1",
+            "tr:nth-child(1) > .ui-datepicker-week-end.ui-datepicker-unselectable.ui-state-disabled:nth-child(7) > .ui-state-default",
+            "tr:nth-child(2) > .ui-datepicker-week-end.ui-datepicker-unselectable.ui-state-disabled > .ui-state-default"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/calendar/event/010826/surgical-technology-information-session",
+      "title": "Surgical Technology Information Session | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/calendar/event/010826/surgical-technology-information-session",
+      "slug": "calendar-event-010826-surgical-technology-information-session",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 20,
+          "firstTargets": [
+            "div:nth-child(1) > .grey.solid[target=\"\"] > .button-text",
+            "div:nth-child(2) > .grey.solid[target=\"\"] > .button-text",
+            "div:nth-child(3) > .grey.solid[target=\"\"] > .button-text",
+            "tr:nth-child(1) > .ui-datepicker-other-month.ui-datepicker-week-end.ui-datepicker-unselectable > .ui-state-default",
+            ".ui-datepicker-other-month.ui-datepicker-unselectable.ui-state-disabled:nth-child(2) > .ui-state-default"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "a[href=\"/\"]"
+          ]
+        }
+      ],
+      "violationTotal": 21,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 12,
+          "firstTargets": [
+            ".content > h1",
+            "tr:nth-child(1) > .ui-datepicker-week-end.ui-datepicker-unselectable.ui-state-disabled:nth-child(7) > .ui-state-default",
+            "tr:nth-child(2) > .ui-datepicker-week-end.ui-datepicker-unselectable.ui-state-disabled > .ui-state-default"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/calendar/event/082126/medical-assistant-phlebotomy-info-session",
+      "title": "Medical Assistant & Phlebotomy Info Session | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/calendar/event/082126/medical-assistant-phlebotomy-info-session",
+      "slug": "calendar-event-082126-medical-assistant-phlebotomy-info-session",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 20,
+          "firstTargets": [
+            "div:nth-child(1) > .grey.solid[target=\"\"] > .button-text",
+            "div:nth-child(2) > .grey.solid[target=\"\"] > .button-text",
+            "div:nth-child(3) > .grey.solid[target=\"\"] > .button-text",
+            "tr:nth-child(1) > .ui-datepicker-other-month.ui-datepicker-week-end.ui-datepicker-unselectable > .ui-state-default",
+            ".ui-datepicker-other-month.ui-datepicker-unselectable.ui-state-disabled:nth-child(2) > .ui-state-default"
+          ]
+        }
+      ],
+      "violationTotal": 21,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 12,
+          "firstTargets": [
+            ".content > h1",
+            "tr:nth-child(1) > .ui-datepicker-week-end.ui-datepicker-unselectable.ui-state-disabled:nth-child(7) > .ui-state-default",
+            "tr:nth-child(2) > .ui-datepicker-week-end.ui-datepicker-unselectable.ui-state-disabled > .ui-state-default"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/calendar/event/091026/vet-tech-info-session",
+      "title": "Vet Tech Info Session | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/calendar/event/091026/vet-tech-info-session",
+      "slug": "calendar-event-091026-vet-tech-info-session",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 20,
+          "firstTargets": [
+            "div:nth-child(1) > .grey.solid[target=\"\"] > .button-text",
+            "div:nth-child(2) > .grey.solid[target=\"\"] > .button-text",
+            "div:nth-child(3) > .grey.solid[target=\"\"] > .button-text",
+            "tr:nth-child(1) > .ui-datepicker-other-month.ui-datepicker-week-end.ui-datepicker-unselectable > .ui-state-default",
+            ".ui-datepicker-other-month.ui-datepicker-unselectable.ui-state-disabled:nth-child(2) > .ui-state-default"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "a[href=\"/\"]"
+          ]
+        }
+      ],
+      "violationTotal": 21,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 12,
+          "firstTargets": [
+            ".content > h1",
+            "tr:nth-child(1) > .ui-datepicker-week-end.ui-datepicker-unselectable.ui-state-disabled:nth-child(7) > .ui-state-default",
+            "tr:nth-child(2) > .ui-datepicker-week-end.ui-datepicker-unselectable.ui-state-disabled > .ui-state-default"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/calendar/event/091426/vet-tech-apprenticeship-info-session",
+      "title": "Vet Tech Apprenticeship Info Session | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/calendar/event/091426/vet-tech-apprenticeship-info-session",
+      "slug": "calendar-event-091426-vet-tech-apprenticeship-info-session",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 20,
+          "firstTargets": [
+            "div:nth-child(1) > .grey.solid[target=\"\"] > .button-text",
+            "div:nth-child(2) > .grey.solid[target=\"\"] > .button-text",
+            "div:nth-child(3) > .grey.solid[target=\"\"] > .button-text",
+            "tr:nth-child(1) > .ui-datepicker-other-month.ui-datepicker-week-end.ui-datepicker-unselectable > .ui-state-default",
+            ".ui-datepicker-other-month.ui-datepicker-unselectable.ui-state-disabled:nth-child(2) > .ui-state-default"
+          ]
+        }
+      ],
+      "violationTotal": 21,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 12,
+          "firstTargets": [
+            ".content > h1",
+            "tr:nth-child(1) > .ui-datepicker-week-end.ui-datepicker-unselectable.ui-state-disabled:nth-child(7) > .ui-state-default",
+            "tr:nth-child(2) > .ui-datepicker-week-end.ui-datepicker-unselectable.ui-state-disabled > .ui-state-default"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/cashiers-office/tuition-rates-credit-hour",
+      "title": "Cashier's Office - Tuition Rates | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/cashiers-office/tuition-rates-credit-hour",
+      "slug": "cashiers-office-tuition-rates-credit-hour",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#tab-4779-0-pane > table > tbody > tr:nth-child(1) > th",
+            "#tab-4779-0-pane > table > tbody > tr:nth-child(2) > th"
+          ]
+        }
+      ],
+      "violationTotal": 2,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 12,
+          "firstTargets": [
+            ".page-title",
+            "#block-ccd-breadcrumb-block > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .breadcrumb-item:nth-child(1) > a[href=\"/\"] > .home-text",
+            "#block-ccd-breadcrumb-block > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .breadcrumb-item:nth-child(2) > a[href$=\"cashiers-office\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/ccd-foundation",
+      "title": "CCD Foundation | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/ccd-foundation",
+      "slug": "ccd-foundation",
+      "violations": [
+        {
+          "id": "frame-title",
+          "impact": "serious",
+          "help": "Frames must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/frame-title?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "iframe[width=\"100%\"]"
+          ]
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag111"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "iframe[width=\"100%\"] img[src$=\"logo-popup.png\"]"
+          ]
+        }
+      ],
+      "violationTotal": 2,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 37,
+          "firstTargets": [
+            ".page-title",
+            ".col.col-12 > h2",
+            ".field--name-field-paragraph-subtitle"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/ccd-online",
+      "title": "CCD Online | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/ccd-online",
+      "slug": "ccd-online",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 21,
+          "firstTargets": [
+            ".page-title",
+            ".paragraph-id-3975 > .paragraph-inner > .cta-card-details > .cta-card-description > .text-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted",
+            ".paragraph-id-3975 > .paragraph-inner > .cta-card-details > .cta-card-description > .text-text > .field--name-field-paragraph-text.field--type-text-long.text-formatted > p"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/ccd-transfer-agreements",
+      "title": "Office of the Provost - CCD Transfer Agreements | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/ccd-transfer-agreements",
+      "slug": "ccd-transfer-agreements",
+      "violations": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "a[href=\"/\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/center-workforce-initiatives",
+      "title": "Center for Workforce Initiatives | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/center-workforce-initiatives",
+      "slug": "center-workforce-initiatives",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#main-content",
+            "#programs-services"
+          ]
+        }
+      ],
+      "violationTotal": 2,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 24,
+          "firstTargets": [
+            ".page-title",
+            ".paragraph-id-4940 > .layout-inner > .section-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted",
+            ".section-title > .field--name-field-paragraph-text.field--type-text-long.text-formatted > p"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/counseling-center",
+      "title": "Counseling Center | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/counseling-center",
+      "slug": "counseling-center",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 17,
+          "firstTargets": [
+            ".page-title",
+            ".paragraph-id-5222 > .paragraph-inner > .text-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted",
+            ".field--type-text.field--name-field-paragraph-html-title.text-formatted > strong"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/departments",
+      "title": "Departments | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/departments",
+      "slug": "departments",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "h1",
+            ".home-text",
+            ".active > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/directory",
+      "title": "Directory | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/directory",
+      "slug": "directory",
+      "violations": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "a[href=\"/\"]"
+          ]
+        }
+      ],
+      "violationTotal": 2,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 8,
+          "firstTargets": [
+            "#edit-org",
+            "#edit-program",
+            ".animated.views-row.fadeInUp:nth-child(1) > .node.node--type-image-button.node--view-mode-teaser > .group-overlay.field-group-div > .field--name-field-display-title.field--type-string.field--label-hidden"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/docs",
+      "title": "Document Library | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/docs",
+      "slug": "docs",
+      "violations": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#edit-text"
+          ]
+        }
+      ],
+      "violationTotal": 3,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 5,
+          "firstTargets": [
+            "#block-ccd-section-title-block > .content",
+            "#edit-organization",
+            "#edit-program"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/docs/auraria-campus-maps",
+      "title": "Auraria Campus - Maps | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/docs/auraria-campus-maps",
+      "slug": "docs-auraria-campus-maps",
+      "violations": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            ".field--name-field-document-type",
+            ".field__label",
+            ".field--name-node-changed-date > .field__item"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "a[href=\"/\"]"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/dreamers-undocumented-student-information",
+      "title": "DREAMers & Undocumented Student Information | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/dreamers-undocumented-student-information",
+      "slug": "dreamers-undocumented-student-information",
+      "violations": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 63,
+          "firstTargets": [
+            ".page-title",
+            ".field--name-field-paragraph-eyebrow",
+            ".paragraph-id-asset-daca > .layout-inner > .section-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/educational-opportunity-center",
+      "title": "Educational Opportunity Center | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/educational-opportunity-center",
+      "slug": "educational-opportunity-center",
+      "violations": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#main-content",
+            "#events"
+          ]
+        }
+      ],
+      "violationTotal": 3,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 10,
+          "firstTargets": [
+            ".page-title",
+            ".paragraph-id-2707 > .layout-inner > .section-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted",
+            ".paragraph-id-2708 > .paragraph-inner > .text-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/excel-zone",
+      "title": "EXCEL! Zone | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/excel-zone",
+      "slug": "excel-zone",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#player-7290 .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            "#main-content",
+            "#player-7290 #movie_player",
+            "#events"
+          ]
+        },
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "help": "Buttons must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#player-7290 .ytmVideoInfoChannelAvatar"
+          ]
+        }
+      ],
+      "violationTotal": 6,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 20,
+          "firstTargets": [
+            ".page-title",
+            ".paragraph-id-4577 > .paragraph-inner > .cta-card-details > .cta-card-description > .text-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted",
+            ".paragraph-id-4577 > .paragraph-inner > .cta-card-details > .cta-card-description > .text-text > .field--name-field-paragraph-text.field--type-text-long.text-formatted > p"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/financial-aid-scholarships",
+      "title": "Financial Aid & Scholarships | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/financial-aid-scholarships",
+      "slug": "financial-aid-scholarships",
+      "violations": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag111"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".views-row.animated:nth-child(3) > .views-field.views-field-rendered-entity > .field-content > .node--type-directory.node--view-mode-card.ds-2col-fluid > .group-right > .field--name-field-directory-image.field--type-entity-reference.field--label-hidden > .image-style-medium[width=\"220\"][height=\"220\"]"
+          ]
+        }
+      ],
+      "violationTotal": 2,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 70,
+          "firstTargets": [
+            ".page-title",
+            ".paragraph-id-3466 > .paragraph-inner > .cta-card-details > .cta-card-description > .text-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted",
+            ".paragraph-id-3466 > .paragraph-inner > .cta-card-details > .cta-card-description > .text-text > .field--name-field-paragraph-text.field--type-text-long.text-formatted > p"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/financial-aid-scholarships/guide-financial-aid/calculating-cost-attend-ccd",
+      "title": "Financial Aid & Scholarships - Calculating the Cost to Attend CCD | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/financial-aid-scholarships/guide-financial-aid/calculating-cost-attend-ccd",
+      "slug": "financial-aid-scholarships-guide-financial-aid-calculating-cost-attend-ccd",
+      "violations": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 7,
+          "firstTargets": [
+            "#tab-4785-0-pane > table > tbody > tr:nth-child(1) > th",
+            "#tab-4785-0-pane > table > tbody > tr:nth-child(2) > th",
+            "#tab-4785-0-pane > table > tbody > tr:nth-child(3) > th",
+            "#tab-4785-0-pane > table > tbody > tr:nth-child(4) > th",
+            "#tab-4785-0-pane > table > tbody > tr:nth-child(5) > th"
+          ]
+        }
+      ],
+      "violationTotal": 9,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 13,
+          "firstTargets": [
+            ".page-title",
+            "#block-ccd-breadcrumb-block > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .breadcrumb-item:nth-child(1) > a[href=\"/\"][data-uw-original-href=\"/\"][data-uw-rm-brl=\"PR\"] > .home-text",
+            "#block-ccd-breadcrumb-block > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .breadcrumb-item:nth-child(2) > a[href=\"/financial-aid-scholarships\"][data-uw-original-href=\"/financial-aid-scholarships\"][data-uw-rm-brl=\"PR\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/financial-aid-scholarships/types-aid/come-work-us-work-study-student",
+      "title": "Financial Aid & Scholarships - Work-Study | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/financial-aid-scholarships/types-aid/come-work-us-work-study-student",
+      "slug": "financial-aid-scholarships-types-aid-come-work-us-work-study-student",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 13,
+          "firstTargets": [
+            ".page-title",
+            "#block-ccd-breadcrumb-block > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .breadcrumb-item:nth-child(1) > a[href=\"/\"] > .home-text",
+            "#block-ccd-breadcrumb-block > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .breadcrumb-item:nth-child(2) > a[href=\"/financial-aid-scholarships\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/fiscal-services",
+      "title": "Fiscal Services | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/fiscal-services",
+      "slug": "fiscal-services",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 8,
+          "firstTargets": [
+            ".page-title",
+            ".section-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted",
+            ".paragraph-id-2661 > .paragraph-inner > .text-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/high-school-connections",
+      "title": "High School Connections | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/high-school-connections",
+      "slug": "high-school-connections",
+      "violations": [
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag111"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".views-row.animated:nth-child(5) > .views-field.views-field-rendered-entity > .field-content > .node--type-directory.node--view-mode-card.ds-2col-fluid > .group-right > .field--name-field-directory-image.field--type-entity-reference.field--label-hidden > .image-style-medium[width=\"220\"][height=\"220\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 21,
+          "firstTargets": [
+            ".page-title",
+            ".paragraph-id-3881 > .layout-inner > .section-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted",
+            ".paragraph-id-3882 > .paragraph-inner > .cta-card-details > .cta-card-description > .text-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/honors-programs-societies",
+      "title": "Honors Programs & Societies | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/honors-programs-societies",
+      "slug": "honors-programs-societies",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 25,
+          "firstTargets": [
+            ".page-title",
+            ".paragraph-id-3621 > .layout-inner > .section-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted",
+            ".paragraph-id-3622 > .paragraph-inner > .cta-card-details > .cta-card-description > .text-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/how-do-i-make-complaint-or-appeal",
+      "title": "General - Make a Complaint or Appeal | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/how-do-i-make-complaint-or-appeal",
+      "slug": "how-do-i-make-complaint-or-appeal",
+      "violations": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "a[href=\"/\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/hsi",
+      "title": "HSI | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/hsi",
+      "slug": "hsi",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "h2 > .field--name-field-paragraph-html-title.field--type-text.text-formatted"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/human-resources",
+      "title": "Human Resources | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/human-resources",
+      "slug": "human-resources",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 28,
+          "firstTargets": [
+            ".page-title",
+            ".paragraph-id-2618 > .paragraph-inner > .text-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted",
+            ".paragraph-id-2618 > .paragraph-inner > .text-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted > strong"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/industry-hub",
+      "title": "Industry Hub | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/industry-hub",
+      "slug": "industry-hub",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            ".paragraph-id-6832 > .field--name-field-paragraph-html-title.field--type-text.text-formatted",
+            ".paragraph-id-6832 > .field--name-field-paragraph-text.field--type-text-long.text-formatted > p",
+            ".paragraph-id-6833 > .field--name-field-paragraph-html-title.field--type-text.text-formatted"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/institutional-research-analytics-effectiveness",
+      "title": "Institutional Research, Analytics, & Effectiveness | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/institutional-research-analytics-effectiveness",
+      "slug": "institutional-research-analytics-effectiveness",
+      "violations": [
+        {
+          "id": "aria-input-field-name",
+          "impact": "serious",
+          "help": "ARIA input fields must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-input-field-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#tab-6974-0-pane > p > .powerbi-iframe-wrapper > iframe[title=\"app-powerbi\"][data-uw-rm-iframe=\"gn\"][data-once=\"wrapiframe\"] .flex-grow"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "#main-content",
+            "#about",
+            "#demographics-statistics",
+            "#assessment"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".translate",
+            "#tab-6974-0-pane > p > .powerbi-iframe-wrapper > iframe[title=\"app-powerbi\"][data-uw-rm-iframe=\"gn\"][data-once=\"wrapiframe\"] exploration"
+          ]
+        },
+        {
+          "id": "aria-required-children",
+          "impact": "critical",
+          "help": "Certain ARIA roles must contain particular children",
+          "wcag": [
+            "wcag2a",
+            "wcag131"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#tab-6974-0-pane > p > .powerbi-iframe-wrapper > iframe[title=\"app-powerbi\"][data-uw-rm-iframe=\"gn\"][data-once=\"wrapiframe\"] .labelSeriesGraphicsContext"
+          ]
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "#tab-6974-0-pane > p > .powerbi-iframe-wrapper > iframe[title=\"app-powerbi\"][data-uw-rm-iframe=\"gn\"][data-once=\"wrapiframe\"] div[aria-label=\"ACADEMIC_YEAR_DESC\"]",
+            "#tab-6974-0-pane > p > .powerbi-iframe-wrapper > iframe[title=\"app-powerbi\"][data-uw-rm-iframe=\"gn\"][data-once=\"wrapiframe\"] div[aria-label=\"Student Population\"]",
+            "#tab-6974-0-pane > p > .powerbi-iframe-wrapper > iframe[title=\"app-powerbi\"][data-uw-rm-iframe=\"gn\"][data-once=\"wrapiframe\"] div[aria-label=\"FirstGeneration\"]"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 8,
+          "firstTargets": [
+            ".page-title",
+            ".section-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted",
+            ".paragraph-id-3605 > .paragraph-inner > .text-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/international-students",
+      "title": "International Students | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/international-students",
+      "slug": "international-students",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 10,
+          "firstTargets": [
+            ".page-title",
+            ".section-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted",
+            ".paragraph-id-2734 > .paragraph-inner > .text-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/legal-notices-and-disclaimers",
+      "title": "General - Legal Notices and Disclaimers | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/legal-notices-and-disclaimers",
+      "slug": "legal-notices-and-disclaimers",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/marketing-and-communications",
+      "title": "Marketing and Communications | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/marketing-and-communications",
+      "slug": "marketing-and-communications",
+      "violations": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 12,
+          "firstTargets": [
+            ".paragraph-id-4488 > .paragraph-inner > .text-text > .field--name-field-paragraph-text.field--type-text-long.text-formatted > a[data-gallery=\"\"][data-caption=\"\"][data-credit=\"\"]",
+            ".paragraph-id-4488 > .paragraph-inner > .text-text > .field--name-field-paragraph-text.field--type-text-long.text-formatted > figure > a[data-gallery=\"\"][data-caption=\"\"][data-credit=\"\"]",
+            ".paragraph-id-5041 > .paragraph-inner > .text-text > .field--name-field-paragraph-text.field--type-text-long.text-formatted > a[data-gallery=\"\"][data-caption=\"\"][data-credit=\"\"]",
+            ".paragraph-id-5041 > .paragraph-inner > .text-text > .field--name-field-paragraph-text.field--type-text-long.text-formatted > figure > a[data-gallery=\"\"][data-caption=\"\"][data-credit=\"\"]",
+            ".paragraph-id-5042 > .paragraph-inner > .text-text > .field--name-field-paragraph-text.field--type-text-long.text-formatted > a[data-gallery=\"\"][data-caption=\"\"][data-credit=\"\"]"
+          ]
+        }
+      ],
+      "violationTotal": 12,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 21,
+          "firstTargets": [
+            ".page-title",
+            ".paragraph-id-5049 > .layout-inner > .section-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted",
+            ".paragraph-id-5052 > .paragraph-inner > .cta-card-details > .cta-card-description > .text-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/news",
+      "title": "News | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/news",
+      "slug": "news",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 13,
+          "firstTargets": [
+            ".ccd-name",
+            ".newsroom-name",
+            ".news-header-menu > .nav > .nav-item:nth-child(1) > .nav-link--news-all[href$=\"all\"][data-drupal-link-system-path=\"news/all\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/node/8983",
+      "title": "Request Information | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/node/8983",
+      "slug": "node-8983",
+      "violations": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-valid-attr-value?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "iframe[height=\"1500\"] #submitCreateAccount"
+          ]
+        },
+        {
+          "id": "frame-title",
+          "impact": "serious",
+          "help": "Frames must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/frame-title?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "iframe[height=\"1500\"]"
+          ]
+        },
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "help": "Links must have discernible text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag244",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "a[href=\"/\"]",
+            "a[href$=\"node\"]"
+          ]
+        }
+      ],
+      "violationTotal": 4,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            "iframe[height=\"1500\"] h4",
+            "iframe[height=\"1500\"] label[for=\"cccs_textmessageoptin_true\"]",
+            "iframe[height=\"1500\"] iframe[title=\"reCAPTCHA\"] #rc-anchor-over-quota > div"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/nondiscriminationtitle-ix",
+      "title": "Human Resources - Nondiscrimination/Title IX | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/nondiscriminationtitle-ix",
+      "slug": "nondiscriminationtitle-ix",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 11,
+          "firstTargets": [
+            ".page-title",
+            "#block-ccd-breadcrumb-block > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .breadcrumb-item:nth-child(1) > a[href=\"/\"] > .home-text",
+            "#block-ccd-breadcrumb-block > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .breadcrumb-item.active > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/office-emergency-management",
+      "title": "Office of Emergency Management | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/office-emergency-management",
+      "slug": "office-emergency-management",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 39,
+          "firstTargets": [
+            ".page-title",
+            ".paragraph-id-7539 > .paragraph-inner > .cta-banner-details.container-xl > .row > .col.col-12 > .field--type-text.field--name-field-paragraph-html-title",
+            ".paragraph-id-7539 > .paragraph-inner > .cta-banner-details.container-xl > .row > .col.col-12 > .field--name-field-paragraph-subtitle.field--type-string.field--label-hidden"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/office-president",
+      "title": "Office of the President | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/office-president",
+      "slug": "office-president",
+      "violations": [
+        {
+          "id": "image-alt",
+          "impact": "critical",
+          "help": "Images must have alternative text",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag111"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".views-row.animated:nth-child(6) > .views-field.views-field-rendered-entity > .field-content > .node--type-directory.node--view-mode-card.ds-2col-fluid > .group-right > .field--name-field-directory-image.field--type-entity-reference.field--label-hidden > .image-style-medium[height=\"220\"][width=\"220\"]"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 16,
+          "firstTargets": [
+            ".page-title",
+            ".col.col-12 > .field--type-text",
+            ".field--name-field-paragraph-subtitle"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/office-provost",
+      "title": "Office of the Provost | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/office-provost",
+      "slug": "office-provost",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 20,
+          "firstTargets": [
+            ".page-title",
+            ".paragraph-id-4507 > .paragraph-inner > .cta-card-details > .cta-card-description > .text-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted",
+            ".paragraph-id-4507 > .paragraph-inner > .cta-card-details > .cta-card-description > .text-text > .field--name-field-paragraph-text.field--type-text-long.text-formatted > p"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/office-registration-and-records/registering-classes",
+      "title": "Office of Registration & Records - Registering for Classes | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/office-registration-and-records/registering-classes",
+      "slug": "office-registration-and-records-registering-classes",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 11,
+          "firstTargets": [
+            ".page-title",
+            "#block-ccd-breadcrumb-block > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .breadcrumb-item:nth-child(1) > a[href=\"/\"][data-uw-original-href=\"/\"][data-uw-rm-brl=\"PR\"] > .home-text",
+            "#block-ccd-breadcrumb-block > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .breadcrumb-item.active > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/office-registration-and-records/transfer-and-prior-learning-assessment-your-questions-answered",
+      "title": "Office of Registration & Records - Transfer and Prior Learning Assessment | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/office-registration-and-records/transfer-and-prior-learning-assessment-your-questions-answered",
+      "slug": "office-registration-and-records-transfer-and-prior-learning-assessment-your-questions-answered",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 47,
+          "firstTargets": [
+            ".page-title",
+            "#block-ccd-breadcrumb-block > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .breadcrumb-item:nth-child(1) > a[href=\"/\"][data-uw-original-href=\"/\"][data-uw-rm-brl=\"BE\"] > .home-text",
+            "#block-ccd-breadcrumb-block > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .active.breadcrumb-item > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/pathways/health-sciences",
+      "title": "Health Sciences | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/pathways/health-sciences",
+      "slug": "pathways-health-sciences",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".pathway-top > p"
+          ]
+        }
+      ],
+      "violationTotal": 2,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 107,
+          "firstTargets": [
+            "#as-bsn-collaborative-program > .row > .program-desc > .wrapper > .program-title > a[hreflang=\"en\"][data-uw-rm-brl=\"PR\"]",
+            "#as-bsn-collaborative-program > .row > .program-desc > .wrapper > .program-description",
+            "#as-bsn-collaborative-program > .row > .program-desc > .wrapper > .program-button > a[hreflang=\"en\"][data-uw-rm-vglnk=\"\"][data-uw-rm-brl=\"PR\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/paying-for-college",
+      "title": "Paying for College | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/paying-for-college",
+      "slug": "paying-for-college",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/presidential-search",
+      "title": "Presidential Search | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/presidential-search",
+      "slug": "presidential-search",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#main-content",
+            "#contact"
+          ]
+        }
+      ],
+      "violationTotal": 2,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 15,
+          "firstTargets": [
+            ".page-title",
+            ".paragraph-id-7436 > .paragraph-inner > .text-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted",
+            ".field--type-text.field--name-field-paragraph-html-title.text-formatted > strong"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/program/adult-high-school-diploma",
+      "title": "Adult High School Diploma | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/program/adult-high-school-diploma",
+      "slug": "program-adult-high-school-diploma",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 16,
+          "firstTargets": [
+            ".field--name-title",
+            ".home-text",
+            ".breadcrumb-item:nth-child(2) > a[href$=\"academics\"][data-uw-original-href$=\"academics\"][data-uw-rm-brl=\"PR\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/programs",
+      "title": "Programs A-Z | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/programs",
+      "slug": "programs",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 66,
+          "firstTargets": [
+            "#main-content",
+            "tr:nth-child(1) > .views-field-title[headers=\"view-nothing-table-column\"] > a[name=\"A\"][aria-label=\"Open this option\"][data-uw-rm-empty-ctrl=\"\"]",
+            "tr:nth-child(2) > .views-field-title[headers=\"view-nothing-table-column\"] > a[name=\"A\"][aria-label=\"Open this option\"][data-uw-rm-empty-ctrl=\"\"]",
+            "tr:nth-child(3) > .views-field-title[headers=\"view-nothing-table-column\"] > a[name=\"A\"][aria-label=\"Open this option\"][data-uw-rm-empty-ctrl=\"\"]",
+            "tr:nth-child(4) > .views-field-title[headers=\"view-nothing-table-column\"] > a[name=\"A\"][aria-label=\"Open this option\"][data-uw-rm-empty-ctrl=\"\"]"
+          ]
+        }
+      ],
+      "violationTotal": 66,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".hero-title",
+            ".hero-subtitle"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/resources/student-clubs-organizations",
+      "title": "SPARC - Student Organizations | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/resources/student-clubs-organizations",
+      "slug": "resources-student-clubs-organizations",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            ".page-title",
+            "#block-ccd-breadcrumb-block > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .breadcrumb-item:nth-child(1) > a[href=\"/\"] > .home-text",
+            "#block-ccd-breadcrumb-block > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .active.breadcrumb-item > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/student-conduct-support",
+      "title": "Student Conduct & Support | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/student-conduct-support",
+      "slug": "student-conduct-support",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 5,
+          "firstTargets": [
+            "#main-content",
+            "#careteam",
+            "#studentconduct",
+            "#academic-integrity",
+            "#faq"
+          ]
+        }
+      ],
+      "violationTotal": 5,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 15,
+          "firstTargets": [
+            ".page-title",
+            ".paragraph-id-3876 > .paragraph-inner > .text-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted",
+            ".text-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted > strong"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/student-government-association",
+      "title": "Student Government Association | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/student-government-association",
+      "slug": "student-government-association",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 21,
+          "firstTargets": [
+            ".page-title",
+            ".paragraph-id-4029 > .paragraph-inner > .cta-card-details > .cta-card-description > .text-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted",
+            ".paragraph-id-4029 > .paragraph-inner > .cta-card-details > .cta-card-description > .text-text > .field--name-field-paragraph-text.field--type-text-long.text-formatted > p"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/student-hub",
+      "title": "Student Hub | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/student-hub",
+      "slug": "student-hub",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 76,
+          "firstTargets": [
+            ".home-text",
+            ".breadcrumb-item.active > span",
+            ".field--name-field-paragraph-subtitle"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/student-programming-activities-resource-center-sparc",
+      "title": "Student Programming, Activities & Resource Center (SPARC) | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/student-programming-activities-resource-center-sparc",
+      "slug": "student-programming-activities-resource-center-sparc",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 16,
+          "firstTargets": [
+            ".page-title",
+            ".col.col-12 > h2",
+            ".field--name-field-paragraph-subtitle"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/student-programming-activities-resource-center-sparc/resource-center/health-and-wellbeing",
+      "title": "SPARC - Health and Wellbeing | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/student-programming-activities-resource-center-sparc/resource-center/health-and-wellbeing",
+      "slug": "student-programming-activities-resource-center-sparc-resource-center-health-and-wellbeing",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 4,
+          "firstTargets": [
+            ".page-title",
+            "#block-ccd-breadcrumb-block > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .breadcrumb-item:nth-child(1) > a[href=\"/\"][data-uw-original-href=\"/\"][data-uw-rm-brl=\"PR\"] > .home-text",
+            "#block-ccd-breadcrumb-block > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .breadcrumb-item:nth-child(2) > a[data-uw-rm-brl=\"PR\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/student-resources/computer-zones",
+      "title": "About CCD - Computer Zones | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/student-resources/computer-zones",
+      "slug": "student-resources-computer-zones",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/student-resources/ombudsperson",
+      "title": "SPARC - Ombudsperson | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/student-resources/ombudsperson",
+      "slug": "student-resources-ombudsperson",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 3,
+          "firstTargets": [
+            ".page-title",
+            "#block-ccd-breadcrumb-block > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .breadcrumb-item:nth-child(1) > a[href=\"/\"] > .home-text",
+            "#block-ccd-breadcrumb-block > .content > nav[aria-label=\"breadcrumb\"] > .breadcrumb > .active.breadcrumb-item > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/student-success-technology",
+      "title": "Student Success Technology | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/student-success-technology",
+      "slug": "student-success-technology",
+      "violations": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "help": "Elements must only use supported ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-allowed-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#player-6825 .ytmVideoInfoVideoTitle"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#player-6825 #movie_player"
+          ]
+        }
+      ],
+      "violationTotal": 2,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 93,
+          "firstTargets": [
+            ".page-title",
+            ".paragraph-id-6799 > .layout-inner > .section-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted",
+            ".paragraph-id-6888 > .paragraph-inner > .cta-card-details > .cta-card-description > .text-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/veterans-services-center",
+      "title": "Veterans Services Center | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/veterans-services-center",
+      "slug": "veterans-services-center",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-content"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#tab-4397-1"
+          ]
+        }
+      ],
+      "violationTotal": 2,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 11,
+          "firstTargets": [
+            ".page-title",
+            ".section-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted",
+            ".paragraph-id-2532 > .paragraph-inner > .text-title > .field--type-text.field--name-field-paragraph-html-title.text-formatted"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccd.edu/whyccd",
+      "title": "Why CCD? | Community College of Denver",
+      "finalUrl": "https://www.ccd.edu/whyccd",
+      "slug": "whyccd",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#main-content",
+            "#pathway"
+          ]
+        }
+      ],
+      "violationTotal": 2,
+      "incomplete": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#main-menu"
+          ]
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            ".translate"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 37,
+          "firstTargets": [
+            ".home-text",
+            ".active > span",
+            ".hero-details > .field--name-field-paragraph-subtitle.field--type-string.field--label-hidden"
+          ]
+        }
+      ]
+    }
+  ],
+  "pagesHtml": {
+    "https://ccd.edu/": "pages/home.html",
+    "https://ccd.edu/2026-graduation-commencement": "pages/2026-graduation-commencement.html",
+    "https://ccd.edu/about/accreditation/your-right-know-legal-and-consumer-information": "pages/about-accreditation-your-right-know-legal-and-consumer-information.html",
+    "https://ccd.edu/about/campus-information": "pages/about-campus-information.html",
+    "https://ccd.edu/about/community-clinics": "pages/about-community-clinics.html",
+    "https://ccd.edu/about/vision-mission-strategic-plan": "pages/about-vision-mission-strategic-plan.html",
+    "https://ccd.edu/academic-advising-and-student-success-center/learning-options": "pages/academic-advising-and-student-success-center-learning-options.html",
+    "https://ccd.edu/academic-advising-student-success-center": "pages/academic-advising-student-success-center.html",
+    "https://ccd.edu/academic-calendar": "pages/academic-calendar.html",
+    "https://ccd.edu/academic-pathways": "pages/academic-pathways.html",
+    "https://ccd.edu/academics": "pages/academics.html",
+    "https://ccd.edu/accessibility-center": "pages/accessibility-center.html",
+    "https://ccd.edu/accreditation": "pages/accreditation.html",
+    "https://ccd.edu/admissions-recruitment-outreach": "pages/admissions-recruitment-outreach.html",
+    "https://ccd.edu/admissions/momentum-credit-get-college-credit-what-you-know": "pages/admissions-momentum-credit-get-college-credit-what-you-know.html",
+    "https://ccd.edu/admissions/residency-requirements": "pages/admissions-residency-requirements.html",
+    "https://ccd.edu/advanced-manufacturing-center": "pages/advanced-manufacturing-center.html",
+    "https://ccd.edu/alumni-association": "pages/alumni-association.html",
+    "https://ccd.edu/blog/cityhawk-talk": "pages/blog-cityhawk-talk.html",
+    "https://ccd.edu/calendar": "pages/calendar.html",
+    "https://ccd.edu/calendar/event/010826/sterile-processing-technology-information-session": "pages/calendar-event-010826-sterile-processing-technology-information-session.html",
+    "https://ccd.edu/calendar/event/010826/surgical-technology-information-session": "pages/calendar-event-010826-surgical-technology-information-session.html",
+    "https://ccd.edu/calendar/event/082126/medical-assistant-phlebotomy-info-session": "pages/calendar-event-082126-medical-assistant-phlebotomy-info-session.html",
+    "https://ccd.edu/calendar/event/091026/vet-tech-info-session": "pages/calendar-event-091026-vet-tech-info-session.html",
+    "https://ccd.edu/calendar/event/091426/vet-tech-apprenticeship-info-session": "pages/calendar-event-091426-vet-tech-apprenticeship-info-session.html",
+    "https://ccd.edu/cashiers-office/tuition-rates-credit-hour": "pages/cashiers-office-tuition-rates-credit-hour.html",
+    "https://ccd.edu/ccd-foundation": "pages/ccd-foundation.html",
+    "https://ccd.edu/ccd-online": "pages/ccd-online.html",
+    "https://ccd.edu/ccd-transfer-agreements": "pages/ccd-transfer-agreements.html",
+    "https://ccd.edu/center-workforce-initiatives": "pages/center-workforce-initiatives.html",
+    "https://ccd.edu/counseling-center": "pages/counseling-center.html",
+    "https://ccd.edu/departments": "pages/departments.html",
+    "https://ccd.edu/directory": "pages/directory.html",
+    "https://ccd.edu/docs": "pages/docs.html",
+    "https://ccd.edu/docs/auraria-campus-maps": "pages/docs-auraria-campus-maps.html",
+    "https://ccd.edu/dreamers-undocumented-student-information": "pages/dreamers-undocumented-student-information.html",
+    "https://ccd.edu/educational-opportunity-center": "pages/educational-opportunity-center.html",
+    "https://ccd.edu/excel-zone": "pages/excel-zone.html",
+    "https://ccd.edu/financial-aid-scholarships": "pages/financial-aid-scholarships.html",
+    "https://ccd.edu/financial-aid-scholarships/guide-financial-aid/calculating-cost-attend-ccd": "pages/financial-aid-scholarships-guide-financial-aid-calculating-cost-attend-ccd.html",
+    "https://ccd.edu/financial-aid-scholarships/types-aid/come-work-us-work-study-student": "pages/financial-aid-scholarships-types-aid-come-work-us-work-study-student.html",
+    "https://ccd.edu/fiscal-services": "pages/fiscal-services.html",
+    "https://ccd.edu/high-school-connections": "pages/high-school-connections.html",
+    "https://ccd.edu/honors-programs-societies": "pages/honors-programs-societies.html",
+    "https://ccd.edu/how-do-i-make-complaint-or-appeal": "pages/how-do-i-make-complaint-or-appeal.html",
+    "https://ccd.edu/hsi": "pages/hsi.html",
+    "https://ccd.edu/human-resources": "pages/human-resources.html",
+    "https://ccd.edu/industry-hub": "pages/industry-hub.html",
+    "https://ccd.edu/institutional-research-analytics-effectiveness": "pages/institutional-research-analytics-effectiveness.html",
+    "https://ccd.edu/international-students": "pages/international-students.html",
+    "https://ccd.edu/legal-notices-and-disclaimers": "pages/legal-notices-and-disclaimers.html",
+    "https://ccd.edu/marketing-and-communications": "pages/marketing-and-communications.html",
+    "https://ccd.edu/news": "pages/news.html",
+    "https://ccd.edu/node/8983": "pages/node-8983.html",
+    "https://ccd.edu/nondiscriminationtitle-ix": "pages/nondiscriminationtitle-ix.html",
+    "https://ccd.edu/office-emergency-management": "pages/office-emergency-management.html",
+    "https://ccd.edu/office-president": "pages/office-president.html",
+    "https://ccd.edu/office-provost": "pages/office-provost.html",
+    "https://ccd.edu/office-registration-and-records/registering-classes": "pages/office-registration-and-records-registering-classes.html",
+    "https://ccd.edu/office-registration-and-records/transfer-and-prior-learning-assessment-your-questions-answered": "pages/office-registration-and-records-transfer-and-prior-learning-assessment-your-questions-answered.html",
+    "https://ccd.edu/pathways/health-sciences": "pages/pathways-health-sciences.html",
+    "https://ccd.edu/paying-for-college": "pages/paying-for-college.html",
+    "https://ccd.edu/presidential-search": "pages/presidential-search.html",
+    "https://ccd.edu/program/adult-high-school-diploma": "pages/program-adult-high-school-diploma.html",
+    "https://ccd.edu/programs": "pages/programs.html",
+    "https://ccd.edu/resources/student-clubs-organizations": "pages/resources-student-clubs-organizations.html",
+    "https://ccd.edu/student-conduct-support": "pages/student-conduct-support.html",
+    "https://ccd.edu/student-government-association": "pages/student-government-association.html",
+    "https://ccd.edu/student-hub": "pages/student-hub.html",
+    "https://ccd.edu/student-programming-activities-resource-center-sparc": "pages/student-programming-activities-resource-center-sparc.html",
+    "https://ccd.edu/student-programming-activities-resource-center-sparc/resource-center/health-and-wellbeing": "pages/student-programming-activities-resource-center-sparc-resource-center-health-and-wellbeing.html",
+    "https://ccd.edu/student-resources/computer-zones": "pages/student-resources-computer-zones.html",
+    "https://ccd.edu/student-resources/ombudsperson": "pages/student-resources-ombudsperson.html",
+    "https://ccd.edu/student-success-technology": "pages/student-success-technology.html",
+    "https://ccd.edu/veterans-services-center": "pages/veterans-services-center.html",
+    "https://ccd.edu/whyccd": "pages/whyccd.html"
+  }
+}
