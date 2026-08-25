@@ -118,9 +118,9 @@
                 <tbody>
                     <tr>
                         <th scope="row"><a href="#1" class="card-link">1</a></th>
-                        <td>Links must have discernible text</td>
-                        <td>link-name</td>
-                        <td>WCAG 2 Level A, WCAG 2.4.4, WCAG 4.1.2</td>
+                        <td>Elements must only use permitted ARIA attributes</td>
+                        <td>aria-prohibited-attr</td>
+                        <td>WCAG 2 Level A, WCAG 4.1.2</td>
                         <td>serious</td>
                         <td>1</td>
                     </tr>
@@ -131,23 +131,23 @@
                 <div class="card-body">
                     <div class="violationCardLine">
                         <p class="card-title">
-                            <a id="1">1.</a> Links must have discernible text
+                            <a id="1">1.</a> Elements must only use permitted ARIA attributes
                         </p>
                         <a
-                            href="https:&#x2F;&#x2F;dequeuniversity.com&#x2F;rules&#x2F;axe&#x2F;4.13&#x2F;link-name?application&#x3D;playwright"
+                            href="https:&#x2F;&#x2F;dequeuniversity.com&#x2F;rules&#x2F;axe&#x2F;4.13&#x2F;aria-prohibited-attr?application&#x3D;playwright"
                             target="_blank"
                             class="card-link violationCardTitleItem learnMore"
                             >Learn more</a
                         >
                     </div>
                     <div class="violationCardLine">
-                        <p class="card-subtitle mb-2 text-muted">link-name</p>
+                        <p class="card-subtitle mb-2 text-muted">aria-prohibited-attr</p>
                         <p class="card-subtitle mb-2 text-muted violationCardTitleItem">
-                            WCAG 2 Level A, WCAG 2.4.4, WCAG 4.1.2
+                            WCAG 2 Level A, WCAG 4.1.2
                         </p>
                     </div>
                     <div class="violationCardLine">
-                        <p class="card-text">Ensure links have discernible text</p>
+                        <p class="card-text">Ensure ARIA attributes are not prohibited for an element&#39;s role</p>
                         <p class="card-subtitle mb-2 text-muted violationCardTitleItem">
                             serious
                         </p>
@@ -155,33 +155,19 @@
                     <div class="violationCardLine">
                         <p class="card-subtitle mb-2 text-muted violationCardTitleItem">
                             Issue Tags: 
-                            <span class="badge bg-light text-dark"> cat.name-role-value </span>
+                            <span class="badge bg-light text-dark"> cat.aria </span>
 
                             <span class="badge bg-light text-dark"> wcag2a </span>
 
-                            <span class="badge bg-light text-dark"> wcag244 </span>
-
                             <span class="badge bg-light text-dark"> wcag412 </span>
-
-                            <span class="badge bg-light text-dark"> section508 </span>
-
-                            <span class="badge bg-light text-dark"> section508.22.a </span>
-
-                            <span class="badge bg-light text-dark"> TTv5 </span>
-
-                            <span class="badge bg-light text-dark"> TT6.a </span>
 
                             <span class="badge bg-light text-dark"> EN-301-549 </span>
 
-                            <span class="badge bg-light text-dark"> EN-9.2.4.4 </span>
-
                             <span class="badge bg-light text-dark"> EN-9.4.1.2 </span>
-
-                            <span class="badge bg-light text-dark"> ACT </span>
 
                             <span class="badge bg-light text-dark"> RGAAv4 </span>
 
-                            <span class="badge bg-light text-dark"> RGAA-6.2.1 </span>
+                            <span class="badge bg-light text-dark"> RGAA-7.1.1 </span>
                         </p>
                     </div>
                     <div class="violationNode">
@@ -200,24 +186,15 @@
                                     <td>1</td>
                                     <td>
                                         <p><strong>Element location</strong></p>
-                                        <pre><code class="css text-wrap">a[href&#x3D;&quot;&#x2F;&quot;]</code></pre>
+                                        <pre><code class="css text-wrap">#main-content</code></pre>
                                         <p><strong>Element source</strong></p>
-                                        <pre><code class="html text-wrap">&lt;a href&#x3D;&quot;&#x2F;&quot;&gt;&lt;span class&#x3D;&quot;home-text&quot;&gt;Home&lt;&#x2F;span&gt;&lt;i class&#x3D;&quot;fa fa-home&quot;&gt;&lt;&#x2F;i&gt;&lt;&#x2F;a&gt;</code></pre>
+                                        <pre><code class="html text-wrap">&lt;a id&#x3D;&quot;main-content&quot; aria-label&#x3D;&quot;Open this option&quot; data-uw-rm-empty-ctrl&#x3D;&quot;&quot;&gt;&lt;&#x2F;a&gt;</code></pre>
                                     </td>
                                     <td>
                                         <div class="wrapBreakWord">
                                             <p>Fix all of the following:</p>
                                             <ul class="text-muted">
-                                                <li>  Element is in tab order and does not have accessible text</li>
-                                            </ul>
-                                        </div>
-                                        <div class="wrapBreakWord">
-                                            <p>Fix any of the following:</p>
-                                            <ul class="text-muted">
-                                                <li>  Element does not have text that is visible to screen readers</li>
-                                                <li>  aria-label attribute does not exist or is empty</li>
-                                                <li>  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty</li>
-                                                <li>  Element has no title attribute</li>
+                                                <li>  aria-label attribute cannot be used on a a with no valid role attribute.</li>
                                             </ul>
                                         </div>
                                     </td>
@@ -267,7 +244,7 @@
                                         <td>Elements must only use supported ARIA attributes</td>
                                         <td>aria-allowed-attr</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>22</td>
+                                        <td>32</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
@@ -281,14 +258,14 @@
                                         <td>ARIA attributes must be used as specified for the element&#39;s role</td>
                                         <td>aria-conditional-attr</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>22</td>
+                                        <td>32</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">4</th>
                                         <td>Deprecated ARIA roles must not be used</td>
                                         <td>aria-deprecated-role</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>18</td>
+                                        <td>20</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">5</th>
@@ -309,49 +286,49 @@
                                         <td>Elements must only use permitted ARIA attributes</td>
                                         <td>aria-prohibited-attr</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>21</td>
+                                        <td>30</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">8</th>
                                         <td>Required ARIA attributes must be provided</td>
                                         <td>aria-required-attr</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>18</td>
+                                        <td>20</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">9</th>
                                         <td>ARIA roles used must conform to valid values</td>
                                         <td>aria-roles</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>18</td>
+                                        <td>20</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">10</th>
                                         <td>ARIA attributes must conform to valid values</td>
                                         <td>aria-valid-attr-value</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>22</td>
+                                        <td>32</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">11</th>
                                         <td>ARIA attributes must conform to valid names</td>
                                         <td>aria-valid-attr</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>22</td>
+                                        <td>32</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">12</th>
                                         <td>Inline text spacing must be adjustable with custom stylesheets</td>
                                         <td>avoid-inline-spacing</td>
                                         <td>WCAG 2.1 Level AA, WCAG 1.4.1.2</td>
-                                        <td>18</td>
+                                        <td>19</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">13</th>
                                         <td>Buttons must have discernible text</td>
                                         <td>button-name</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>9</td>
+                                        <td>11</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">14</th>
@@ -365,7 +342,7 @@
                                         <td>Elements must meet minimum color contrast ratio thresholds</td>
                                         <td>color-contrast</td>
                                         <td>WCAG 2 Level AA, WCAG 1.4.3</td>
-                                        <td>67</td>
+                                        <td>68</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">16</th>
@@ -400,14 +377,14 @@
                                         <td>Images must have alternative text</td>
                                         <td>image-alt</td>
                                         <td>WCAG 2 Level A, WCAG 1.1.1</td>
-                                        <td>7</td>
+                                        <td>8</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">21</th>
                                         <td>Links must have discernible text</td>
                                         <td>link-name</td>
                                         <td>WCAG 2 Level A, WCAG 2.4.4, WCAG 4.1.2</td>
-                                        <td>44</td>
+                                        <td>45</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">22</th>
@@ -435,7 +412,7 @@
                                         <td>Interactive controls must not be nested</td>
                                         <td>nested-interactive</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>16</td>
+                                        <td>18</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">26</th>

@@ -67,6 +67,8 @@
   footer { margin-top: 2.5rem; border-top: 1px solid #e3e7ea; padding-top: 1rem; font-size: .85rem; color: #566573; }
   footer a { color: #2e86c1; }
   .datamenu { display: flex; flex-wrap: wrap; gap: 1rem; margin: .5rem 0; }
+  table.pages tr.caveat td.pg .caveat-err { color: #b9770e; word-break: break-all; }
+  .caveat-badge { background: #fef9f3; color: #b9770e; border: 1px solid #f0b27a; padding: .1rem .4rem; border-radius: 4px; font-weight: 600; white-space: nowrap; }
 </style>
 </head>
 <body>
@@ -77,24 +79,25 @@
 
 <div class="meta">
   <span>Last audited: <strong>August 25, 2026</strong> (UTC)</span>
-  <span>Published runs: 1</span>
+  <span>Published runs: 2</span>
   <span>Tooling: <a href="https://github.com/ThirstyHead/audit-ccd.edu">axe-core + Playwright</a>, run weekly via GitHub Actions</span>
-  <span><span class="delta first">first published run</span></span>
+  <span><span class="delta down">▼ 68 vs last run</span></span>
 </div>
 
 <h2>Latest results</h2>
 <div class="cards">
-  <div class="card"><span class="num">369</span><span class="lbl">Node-level violations</span></div>
+  <div class="card"><span class="num">301</span><span class="lbl">Node-level violations</span></div>
   <div class="card"><span class="num">76</span><span class="lbl">Pages audited</span></div>
-  <div class="card"><span class="num">1537</span><span class="lbl">Need manual review</span></div>
+  <div class="card"><span class="num">1545</span><span class="lbl">Need manual review</span></div>
+  <div class="card"><span class="num ">0</span><span class="lbl">Not audited (HTTP error)</span></div>
 </div>
 <div class="severities">
       <div class="sevcard" style="border-top:4px solid #b03a2e">
-        <span class="num">13</span>
+        <span class="num">14</span>
         <span class="lbl">Critical</span>
       </div>
       <div class="sevcard" style="border-top:4px solid #ca6f1e">
-        <span class="num">356</span>
+        <span class="num">287</span>
         <span class="lbl">Serious</span>
       </div>
       <div class="sevcard" style="border-top:4px solid #b7950b">
@@ -107,7 +110,19 @@
       </div></div>
 
 <h2>Trend</h2>
-<p class="count">The trend chart appears once at least two runs have been published.</p>
+<div>
+    <svg viewBox="0 0 680 150" class="spark" role="img" aria-label="Trend of total node-level violations across audit runs">
+      <polyline points="40.0,18.0 640.0,36.8" fill="none" stroke="#2c3e50" stroke-width="2.5" stroke-linejoin="round"/>
+      <circle cx="40.0" cy="18.0" r="4" fill="#2c3e50">
+         <title>2026-08-25T06:28:08.438Z — 369 node-level violations</title>
+       </circle>
+<circle cx="640.0" cy="36.8" r="4" fill="#2c3e50">
+         <title>2026-08-25T22:12:00.618Z — 301 node-level violations</title>
+       </circle>
+      <text x="40" y="142" class="axis">2026-08-25</text>
+      <text x="640" y="142" class="axis" text-anchor="end">2026-08-25</text>
+      <text x="648" y="40.796747967479675" class="axis">301</text>
+    </svg></div>
 
 <h2>Pages</h2>
 <p class="note">Every page audited in this run. “Audit report” opens that page's full axe report — violations, needs-review, and passes, with node-level detail.</p>
@@ -145,21 +160,21 @@
       <td class="n">8</td>
       <td class="links"><a class="pgrep" href="pages/about-community-clinics.html">Audit report</a></td>
     </tr>
-    <tr>
+    <tr class="bad">
       <td class="pg"><a href="https://ccd.edu/about/vision-mission-strategic-plan" rel="noopener">Office of the President - Vision, Mission, &amp; Strategic Plan | Community College of Denver</a> <span class="pwurl">https://ccd.edu/about/vision-mission-strategic-plan</span></td>
-      <td class="n">0</td>
+      <td class="n bad">1</td>
       <td class="n">13</td>
       <td class="links"><a class="pgrep" href="pages/about-vision-mission-strategic-plan.html">Audit report</a></td>
     </tr>
-    <tr class="bad">
+    <tr>
       <td class="pg"><a href="https://ccd.edu/academic-advising-and-student-success-center/learning-options" rel="noopener">Academic Advising - Learning Options | Community College of Denver</a> <span class="pwurl">https://ccd.edu/academic-advising-and-student-success-center/learning-options</span></td>
-      <td class="n bad">1</td>
+      <td class="n">0</td>
       <td class="n">14</td>
       <td class="links"><a class="pgrep" href="pages/academic-advising-and-student-success-center-learning-options.html">Audit report</a></td>
     </tr>
-    <tr class="bad">
+    <tr>
       <td class="pg"><a href="https://ccd.edu/academic-advising-student-success-center" rel="noopener">Academic Advising &amp; Student Success Center | Community College of Denver</a> <span class="pwurl">https://ccd.edu/academic-advising-student-success-center</span></td>
-      <td class="n bad">3</td>
+      <td class="n">0</td>
       <td class="n">22</td>
       <td class="links"><a class="pgrep" href="pages/academic-advising-student-success-center.html">Audit report</a></td>
     </tr>
@@ -171,7 +186,7 @@
     </tr>
     <tr class="bad">
       <td class="pg"><a href="https://ccd.edu/academic-pathways" rel="noopener">Pathways | Community College of Denver</a> <span class="pwurl">https://ccd.edu/academic-pathways</span></td>
-      <td class="n bad">48</td>
+      <td class="n bad">1</td>
       <td class="n">4</td>
       <td class="links"><a class="pgrep" href="pages/academic-pathways.html">Audit report</a></td>
     </tr>
@@ -181,27 +196,27 @@
       <td class="n">43</td>
       <td class="links"><a class="pgrep" href="pages/academics.html">Audit report</a></td>
     </tr>
-    <tr>
+    <tr class="bad">
       <td class="pg"><a href="https://ccd.edu/accessibility-center" rel="noopener">Accessibility Center | Community College of Denver</a> <span class="pwurl">https://ccd.edu/accessibility-center</span></td>
-      <td class="n">0</td>
+      <td class="n bad">1</td>
       <td class="n">27</td>
       <td class="links"><a class="pgrep" href="pages/accessibility-center.html">Audit report</a></td>
     </tr>
-    <tr>
+    <tr class="bad">
       <td class="pg"><a href="https://ccd.edu/accreditation" rel="noopener">Accreditation | Community College of Denver</a> <span class="pwurl">https://ccd.edu/accreditation</span></td>
-      <td class="n">0</td>
+      <td class="n bad">1</td>
       <td class="n">2</td>
       <td class="links"><a class="pgrep" href="pages/accreditation.html">Audit report</a></td>
     </tr>
-    <tr>
+    <tr class="bad">
       <td class="pg"><a href="https://ccd.edu/admissions-recruitment-outreach" rel="noopener">Admissions, Recruitment &amp; Outreach | Community College of Denver</a> <span class="pwurl">https://ccd.edu/admissions-recruitment-outreach</span></td>
-      <td class="n">0</td>
+      <td class="n bad">3</td>
       <td class="n">13</td>
       <td class="links"><a class="pgrep" href="pages/admissions-recruitment-outreach.html">Audit report</a></td>
     </tr>
-    <tr class="bad">
+    <tr>
       <td class="pg"><a href="https://ccd.edu/admissions/momentum-credit-get-college-credit-what-you-know" rel="noopener">Testing Center - Momentum Credit | Community College of Denver</a> <span class="pwurl">https://ccd.edu/admissions/momentum-credit-get-college-credit-what-you-know</span></td>
-      <td class="n bad">2</td>
+      <td class="n">0</td>
       <td class="n">13</td>
       <td class="links"><a class="pgrep" href="pages/admissions-momentum-credit-get-college-credit-what-you-know.html">Audit report</a></td>
     </tr>
@@ -213,7 +228,7 @@
     </tr>
     <tr class="bad">
       <td class="pg"><a href="https://ccd.edu/advanced-manufacturing-center" rel="noopener">Advanced Manufacturing Center | Community College of Denver</a> <span class="pwurl">https://ccd.edu/advanced-manufacturing-center</span></td>
-      <td class="n bad">4</td>
+      <td class="n bad">3</td>
       <td class="n">16</td>
       <td class="links"><a class="pgrep" href="pages/advanced-manufacturing-center.html">Audit report</a></td>
     </tr>
@@ -291,13 +306,13 @@
     </tr>
     <tr class="bad">
       <td class="pg"><a href="https://ccd.edu/center-workforce-initiatives" rel="noopener">Center for Workforce Initiatives | Community College of Denver</a> <span class="pwurl">https://ccd.edu/center-workforce-initiatives</span></td>
-      <td class="n bad">2</td>
+      <td class="n bad">1</td>
       <td class="n">26</td>
       <td class="links"><a class="pgrep" href="pages/center-workforce-initiatives.html">Audit report</a></td>
     </tr>
-    <tr>
+    <tr class="bad">
       <td class="pg"><a href="https://ccd.edu/counseling-center" rel="noopener">Counseling Center | Community College of Denver</a> <span class="pwurl">https://ccd.edu/counseling-center</span></td>
-      <td class="n">0</td>
+      <td class="n bad">1</td>
       <td class="n">19</td>
       <td class="links"><a class="pgrep" href="pages/counseling-center.html">Audit report</a></td>
     </tr>
@@ -309,55 +324,55 @@
     </tr>
     <tr class="bad">
       <td class="pg"><a href="https://ccd.edu/directory" rel="noopener">Directory | Community College of Denver</a> <span class="pwurl">https://ccd.edu/directory</span></td>
-      <td class="n bad">2</td>
-      <td class="n">9</td>
+      <td class="n bad">1</td>
+      <td class="n">10</td>
       <td class="links"><a class="pgrep" href="pages/directory.html">Audit report</a></td>
     </tr>
     <tr class="bad">
       <td class="pg"><a href="https://ccd.edu/docs" rel="noopener">Document Library | Community College of Denver</a> <span class="pwurl">https://ccd.edu/docs</span></td>
-      <td class="n bad">3</td>
-      <td class="n">6</td>
+      <td class="n bad">2</td>
+      <td class="n">7</td>
       <td class="links"><a class="pgrep" href="pages/docs.html">Audit report</a></td>
     </tr>
     <tr class="bad">
       <td class="pg"><a href="https://ccd.edu/docs/auraria-campus-maps" rel="noopener">Auraria Campus - Maps | Community College of Denver</a> <span class="pwurl">https://ccd.edu/docs/auraria-campus-maps</span></td>
-      <td class="n bad">5</td>
-      <td class="n">1</td>
+      <td class="n bad">4</td>
+      <td class="n">2</td>
       <td class="links"><a class="pgrep" href="pages/docs-auraria-campus-maps.html">Audit report</a></td>
     </tr>
-    <tr class="bad">
+    <tr>
       <td class="pg"><a href="https://ccd.edu/dreamers-undocumented-student-information" rel="noopener">DREAMers &amp; Undocumented Student Information | Community College of Denver</a> <span class="pwurl">https://ccd.edu/dreamers-undocumented-student-information</span></td>
-      <td class="n bad">1</td>
-      <td class="n">64</td>
+      <td class="n">0</td>
+      <td class="n">65</td>
       <td class="links"><a class="pgrep" href="pages/dreamers-undocumented-student-information.html">Audit report</a></td>
     </tr>
     <tr class="bad">
       <td class="pg"><a href="https://ccd.edu/educational-opportunity-center" rel="noopener">Educational Opportunity Center | Community College of Denver</a> <span class="pwurl">https://ccd.edu/educational-opportunity-center</span></td>
-      <td class="n bad">3</td>
-      <td class="n">11</td>
+      <td class="n bad">2</td>
+      <td class="n">12</td>
       <td class="links"><a class="pgrep" href="pages/educational-opportunity-center.html">Audit report</a></td>
     </tr>
     <tr class="bad">
       <td class="pg"><a href="https://ccd.edu/excel-zone" rel="noopener">EXCEL! Zone | Community College of Denver</a> <span class="pwurl">https://ccd.edu/excel-zone</span></td>
-      <td class="n bad">6</td>
-      <td class="n">21</td>
+      <td class="n bad">4</td>
+      <td class="n">22</td>
       <td class="links"><a class="pgrep" href="pages/excel-zone.html">Audit report</a></td>
     </tr>
     <tr class="bad">
       <td class="pg"><a href="https://ccd.edu/financial-aid-scholarships" rel="noopener">Financial Aid &amp; Scholarships | Community College of Denver</a> <span class="pwurl">https://ccd.edu/financial-aid-scholarships</span></td>
-      <td class="n bad">2</td>
-      <td class="n">71</td>
+      <td class="n bad">7</td>
+      <td class="n">72</td>
       <td class="links"><a class="pgrep" href="pages/financial-aid-scholarships.html">Audit report</a></td>
     </tr>
     <tr class="bad">
       <td class="pg"><a href="https://ccd.edu/financial-aid-scholarships/guide-financial-aid/calculating-cost-attend-ccd" rel="noopener">Financial Aid &amp; Scholarships - Calculating the Cost to Attend CCD | Community College of Denver</a> <span class="pwurl">https://ccd.edu/financial-aid-scholarships/guide-financial-aid/calculating-cost-attend-ccd</span></td>
-      <td class="n bad">9</td>
-      <td class="n">14</td>
+      <td class="n bad">8</td>
+      <td class="n">15</td>
       <td class="links"><a class="pgrep" href="pages/financial-aid-scholarships-guide-financial-aid-calculating-cost-attend-ccd.html">Audit report</a></td>
     </tr>
-    <tr>
+    <tr class="bad">
       <td class="pg"><a href="https://ccd.edu/financial-aid-scholarships/types-aid/come-work-us-work-study-student" rel="noopener">Financial Aid &amp; Scholarships - Work-Study | Community College of Denver</a> <span class="pwurl">https://ccd.edu/financial-aid-scholarships/types-aid/come-work-us-work-study-student</span></td>
-      <td class="n">0</td>
+      <td class="n bad">1</td>
       <td class="n">15</td>
       <td class="links"><a class="pgrep" href="pages/financial-aid-scholarships-types-aid-come-work-us-work-study-student.html">Audit report</a></td>
     </tr>
@@ -393,7 +408,7 @@
     </tr>
     <tr class="bad">
       <td class="pg"><a href="https://ccd.edu/human-resources" rel="noopener">Human Resources | Community College of Denver</a> <span class="pwurl">https://ccd.edu/human-resources</span></td>
-      <td class="n bad">1</td>
+      <td class="n bad">2</td>
       <td class="n">30</td>
       <td class="links"><a class="pgrep" href="pages/human-resources.html">Audit report</a></td>
     </tr>
@@ -423,7 +438,7 @@
     </tr>
     <tr class="bad">
       <td class="pg"><a href="https://ccd.edu/marketing-and-communications" rel="noopener">Marketing and Communications | Community College of Denver</a> <span class="pwurl">https://ccd.edu/marketing-and-communications</span></td>
-      <td class="n bad">12</td>
+      <td class="n bad">1</td>
       <td class="n">23</td>
       <td class="links"><a class="pgrep" href="pages/marketing-and-communications.html">Audit report</a></td>
     </tr>
@@ -453,7 +468,7 @@
     </tr>
     <tr class="bad">
       <td class="pg"><a href="https://ccd.edu/office-president" rel="noopener">Office of the President | Community College of Denver</a> <span class="pwurl">https://ccd.edu/office-president</span></td>
-      <td class="n bad">1</td>
+      <td class="n bad">4</td>
       <td class="n">18</td>
       <td class="links"><a class="pgrep" href="pages/office-president.html">Audit report</a></td>
     </tr>
@@ -463,9 +478,9 @@
       <td class="n">22</td>
       <td class="links"><a class="pgrep" href="pages/office-provost.html">Audit report</a></td>
     </tr>
-    <tr class="bad">
+    <tr>
       <td class="pg"><a href="https://ccd.edu/office-registration-and-records/registering-classes" rel="noopener">Office of Registration &amp; Records - Registering for Classes | Community College of Denver</a> <span class="pwurl">https://ccd.edu/office-registration-and-records/registering-classes</span></td>
-      <td class="n bad">1</td>
+      <td class="n">0</td>
       <td class="n">13</td>
       <td class="links"><a class="pgrep" href="pages/office-registration-and-records-registering-classes.html">Audit report</a></td>
     </tr>
@@ -487,9 +502,9 @@
       <td class="n">2</td>
       <td class="links"><a class="pgrep" href="pages/paying-for-college.html">Audit report</a></td>
     </tr>
-    <tr class="bad">
+    <tr>
       <td class="pg"><a href="https://ccd.edu/presidential-search" rel="noopener">Presidential Search | Community College of Denver</a> <span class="pwurl">https://ccd.edu/presidential-search</span></td>
-      <td class="n bad">2</td>
+      <td class="n">0</td>
       <td class="n">17</td>
       <td class="links"><a class="pgrep" href="pages/presidential-search.html">Audit report</a></td>
     </tr>
@@ -505,39 +520,39 @@
       <td class="n">4</td>
       <td class="links"><a class="pgrep" href="pages/programs.html">Audit report</a></td>
     </tr>
-    <tr>
+    <tr class="bad">
       <td class="pg"><a href="https://ccd.edu/resources/student-clubs-organizations" rel="noopener">SPARC - Student Organizations | Community College of Denver</a> <span class="pwurl">https://ccd.edu/resources/student-clubs-organizations</span></td>
-      <td class="n">0</td>
+      <td class="n bad">1</td>
       <td class="n">5</td>
       <td class="links"><a class="pgrep" href="pages/resources-student-clubs-organizations.html">Audit report</a></td>
     </tr>
-    <tr class="bad">
+    <tr>
       <td class="pg"><a href="https://ccd.edu/student-conduct-support" rel="noopener">Student Conduct &amp; Support | Community College of Denver</a> <span class="pwurl">https://ccd.edu/student-conduct-support</span></td>
-      <td class="n bad">5</td>
+      <td class="n">0</td>
       <td class="n">17</td>
       <td class="links"><a class="pgrep" href="pages/student-conduct-support.html">Audit report</a></td>
     </tr>
-    <tr class="bad">
+    <tr>
       <td class="pg"><a href="https://ccd.edu/student-government-association" rel="noopener">Student Government Association | Community College of Denver</a> <span class="pwurl">https://ccd.edu/student-government-association</span></td>
-      <td class="n bad">1</td>
+      <td class="n">0</td>
       <td class="n">23</td>
       <td class="links"><a class="pgrep" href="pages/student-government-association.html">Audit report</a></td>
     </tr>
-    <tr class="bad">
+    <tr>
       <td class="pg"><a href="https://ccd.edu/student-hub" rel="noopener">Student Hub | Community College of Denver</a> <span class="pwurl">https://ccd.edu/student-hub</span></td>
-      <td class="n bad">1</td>
+      <td class="n">0</td>
       <td class="n">78</td>
       <td class="links"><a class="pgrep" href="pages/student-hub.html">Audit report</a></td>
     </tr>
-    <tr class="bad">
+    <tr>
       <td class="pg"><a href="https://ccd.edu/student-programming-activities-resource-center-sparc" rel="noopener">Student Programming, Activities &amp; Resource Center (SPARC) | Community College of Denver</a> <span class="pwurl">https://ccd.edu/student-programming-activities-resource-center-sparc</span></td>
-      <td class="n bad">1</td>
+      <td class="n">0</td>
       <td class="n">18</td>
       <td class="links"><a class="pgrep" href="pages/student-programming-activities-resource-center-sparc.html">Audit report</a></td>
     </tr>
-    <tr class="bad">
+    <tr>
       <td class="pg"><a href="https://ccd.edu/student-programming-activities-resource-center-sparc/resource-center/health-and-wellbeing" rel="noopener">SPARC - Health and Wellbeing | Community College of Denver</a> <span class="pwurl">https://ccd.edu/student-programming-activities-resource-center-sparc/resource-center/health-and-wellbeing</span></td>
-      <td class="n bad">1</td>
+      <td class="n">0</td>
       <td class="n">6</td>
       <td class="links"><a class="pgrep" href="pages/student-programming-activities-resource-center-sparc-resource-center-health-and-wellbeing.html">Audit report</a></td>
     </tr>
@@ -547,15 +562,15 @@
       <td class="n">2</td>
       <td class="links"><a class="pgrep" href="pages/student-resources-computer-zones.html">Audit report</a></td>
     </tr>
-    <tr>
+    <tr class="bad">
       <td class="pg"><a href="https://ccd.edu/student-resources/ombudsperson" rel="noopener">SPARC - Ombudsperson | Community College of Denver</a> <span class="pwurl">https://ccd.edu/student-resources/ombudsperson</span></td>
-      <td class="n">0</td>
+      <td class="n bad">1</td>
       <td class="n">5</td>
       <td class="links"><a class="pgrep" href="pages/student-resources-ombudsperson.html">Audit report</a></td>
     </tr>
     <tr class="bad">
       <td class="pg"><a href="https://ccd.edu/student-success-technology" rel="noopener">Student Success Technology | Community College of Denver</a> <span class="pwurl">https://ccd.edu/student-success-technology</span></td>
-      <td class="n bad">2</td>
+      <td class="n bad">3</td>
       <td class="n">95</td>
       <td class="links"><a class="pgrep" href="pages/student-success-technology.html">Audit report</a></td>
     </tr>
@@ -565,20 +580,21 @@
       <td class="n">13</td>
       <td class="links"><a class="pgrep" href="pages/veterans-services-center.html">Audit report</a></td>
     </tr>
-    <tr class="bad">
+    <tr>
       <td class="pg"><a href="https://ccd.edu/whyccd" rel="noopener">Why CCD? | Community College of Denver</a> <span class="pwurl">https://ccd.edu/whyccd</span></td>
-      <td class="n bad">2</td>
+      <td class="n">0</td>
       <td class="n">39</td>
       <td class="links"><a class="pgrep" href="pages/whyccd.html">Audit report</a></td>
     </tr>
   </tbody>
 </table>
 
+
 <h2>Data</h2>
 <div class="datamenu">
   <a href="latest.json">latest.json</a>
   <a href="history.json">history.json</a>
-  <a href="https://github.com/ThirstyHead/ccd-audit/blob/main/reports/axe-2026-08-25T06-28-08-438Z.json">Raw report (latest)</a>
+  <a href="https://github.com/ThirstyHead/ccd-audit/blob/main/reports/axe-2026-08-25T22-12-00-618Z.json">Raw report (latest)</a>
   <a href="https://github.com/ThirstyHead/ccd-audit/tree/main/reports">All raw reports</a>
 </div>
 
@@ -590,7 +606,7 @@
   Automated tooling detects only a subset of accessibility failures and does not replace
   manual or assistive-technology testing. “Needs manual review” items are results axe
   could not determine automatically.</p>
-  <p>Generated 2026-08-25T06:28:09.128Z · <a href="https://thirstyhead.com/ccd-audit/">thirstyhead.com/ccd-audit/</a></p>
+  <p>Generated 2026-08-25T22:12:02.464Z · <a href="https://thirstyhead.com/ccd-audit/">thirstyhead.com/ccd-audit/</a></p>
 </footer>
 </body>
 </html>
