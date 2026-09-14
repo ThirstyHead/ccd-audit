@@ -103,7 +103,7 @@
                     <br />
                 </div>
             </div>
-            <h2>axe-core found <span class="badge badge-warning">11</span> violations</h2>
+            <h2>axe-core found <span class="badge badge-warning">12</span> violations</h2>
             <table class="table table-striped table-bordered">
                 <thead>
                     <tr>
@@ -122,7 +122,7 @@
                         <td>color-contrast</td>
                         <td>WCAG 2 Level AA, WCAG 1.4.3</td>
                         <td>serious</td>
-                        <td>10</td>
+                        <td>11</td>
                     </tr>
                     <tr>
                         <th scope="row"><a href="#2" class="card-link">2</a></th>
@@ -276,20 +276,19 @@
                                     <td>5</td>
                                     <td>
                                         <p><strong>Element location</strong></p>
-                                        <pre><code class="css text-wrap">a[data-date&#x3D;&quot;31&quot;]</code></pre>
+                                        <pre><code class="css text-wrap">.ui-datepicker-other-month.ui-datepicker-unselectable.ui-state-disabled:nth-child(2) &gt; .ui-state-default</code></pre>
                                         <p><strong>Element source</strong></p>
-                                        <pre><code class="html text-wrap">&lt;a class&#x3D;&quot;ui-state-default ui-priority-secondary&quot; href&#x3D;&quot;#&quot; aria-current&#x3D;&quot;false&quot; data-date&#x3D;&quot;31&quot; data-once&#x3D;&quot;scrollto&quot;&gt;31&lt;&#x2F;a&gt;</code></pre>
+                                        <pre><code class="html text-wrap">&lt;span class&#x3D;&quot;ui-state-default&quot;&gt;31&lt;&#x2F;span&gt;</code></pre>
                                     </td>
                                     <td>
                                         <div class="wrapBreakWord">
                                             <p>Fix any of the following:</p>
                                             <ul class="text-muted">
-                                                <li>  Element has insufficient color contrast of 3.9 (foreground color: #7d7d7d, background color: #f9f9f9, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1</li>
+                                                <li>  Element has insufficient color contrast of 1.81 (foreground color: #bebebe, background color: #fcfcfc, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1</li>
                                             </ul>
                                         </div>
                                         <p><strong>Related node:</strong></p>
-                                        <pre><code class="css text-wrap">a[data-date&#x3D;&quot;31&quot;]</code></pre>
-                                        <pre><code class="css text-wrap">.ui-datepicker-inline</code></pre>
+                                        <pre><code class="css text-wrap">.ui-datepicker-other-month.ui-datepicker-unselectable.ui-state-disabled:nth-child(2) &gt; .ui-state-default</code></pre>
                                     </td>
                                 </tr>
                                 <tr>
@@ -315,6 +314,25 @@
                                     <td>7</td>
                                     <td>
                                         <p><strong>Element location</strong></p>
+                                        <pre><code class="css text-wrap">.ui-state-highlight</code></pre>
+                                        <p><strong>Element source</strong></p>
+                                        <pre><code class="html text-wrap">&lt;a class&#x3D;&quot;ui-state-default ui-state-highlight ui-state-active ui-state-hover&quot; href&#x3D;&quot;#&quot; aria-current&#x3D;&quot;true&quot; data-date&#x3D;&quot;14&quot; data-once&#x3D;&quot;scrollto&quot;&gt;14&lt;&#x2F;a&gt;</code></pre>
+                                    </td>
+                                    <td>
+                                        <div class="wrapBreakWord">
+                                            <p>Fix any of the following:</p>
+                                            <ul class="text-muted">
+                                                <li>  Element has insufficient color contrast of 4.39 (foreground color: #777620, background color: #fffa90, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1</li>
+                                            </ul>
+                                        </div>
+                                        <p><strong>Related node:</strong></p>
+                                        <pre><code class="css text-wrap">.ui-state-highlight</code></pre>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>
+                                        <p><strong>Element location</strong></p>
                                         <pre><code class="css text-wrap">tr:nth-child(3) &gt; .ui-datepicker-week-end.ui-datepicker-unselectable.ui-state-disabled:nth-child(7) &gt; .ui-state-default</code></pre>
                                         <p><strong>Element source</strong></p>
                                         <pre><code class="html text-wrap">&lt;span class&#x3D;&quot;ui-state-default&quot;&gt;19&lt;&#x2F;span&gt;</code></pre>
@@ -331,7 +349,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>8</td>
+                                    <td>9</td>
                                     <td>
                                         <p><strong>Element location</strong></p>
                                         <pre><code class="css text-wrap">tr:nth-child(4) &gt; .ui-datepicker-week-end.ui-datepicker-unselectable.ui-state-disabled &gt; .ui-state-default</code></pre>
@@ -350,10 +368,10 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>9</td>
+                                    <td>10</td>
                                     <td>
                                         <p><strong>Element location</strong></p>
-                                        <pre><code class="css text-wrap">.ui-datepicker-unselectable.ui-state-disabled:nth-child(2) &gt; .ui-state-default</code></pre>
+                                        <pre><code class="css text-wrap">tr:nth-child(4) &gt; .ui-datepicker-unselectable.ui-state-disabled:nth-child(2) &gt; .ui-state-default</code></pre>
                                         <p><strong>Element source</strong></p>
                                         <pre><code class="html text-wrap">&lt;span class&#x3D;&quot;ui-state-default&quot;&gt;21&lt;&#x2F;span&gt;</code></pre>
                                     </td>
@@ -365,11 +383,11 @@
                                             </ul>
                                         </div>
                                         <p><strong>Related node:</strong></p>
-                                        <pre><code class="css text-wrap">.ui-datepicker-unselectable.ui-state-disabled:nth-child(2) &gt; .ui-state-default</code></pre>
+                                        <pre><code class="css text-wrap">tr:nth-child(4) &gt; .ui-datepicker-unselectable.ui-state-disabled:nth-child(2) &gt; .ui-state-default</code></pre>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>10</td>
+                                    <td>11</td>
                                     <td>
                                         <p><strong>Element location</strong></p>
                                         <pre><code class="css text-wrap">tr:nth-child(5) &gt; .ui-datepicker-week-end.ui-datepicker-unselectable.ui-state-disabled:nth-child(1) &gt; .ui-state-default</code></pre>
@@ -532,7 +550,7 @@
                                         <td>Elements must only use supported ARIA attributes</td>
                                         <td>aria-allowed-attr</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>47</td>
+                                        <td>46</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
@@ -546,7 +564,7 @@
                                         <td>ARIA attributes must be used as specified for the element&#39;s role</td>
                                         <td>aria-conditional-attr</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>47</td>
+                                        <td>46</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">4</th>
@@ -574,7 +592,7 @@
                                         <td>Elements must only use permitted ARIA attributes</td>
                                         <td>aria-prohibited-attr</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>46</td>
+                                        <td>45</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">8</th>
@@ -595,14 +613,14 @@
                                         <td>ARIA attributes must conform to valid values</td>
                                         <td>aria-valid-attr-value</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>47</td>
+                                        <td>46</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">11</th>
                                         <td>ARIA attributes must conform to valid names</td>
                                         <td>aria-valid-attr</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>47</td>
+                                        <td>46</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">12</th>
@@ -679,7 +697,7 @@
                                         <td>Links must have discernible text</td>
                                         <td>link-name</td>
                                         <td>WCAG 2 Level A, WCAG 2.4.4, WCAG 4.1.2</td>
-                                        <td>75</td>
+                                        <td>74</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">23</th>
@@ -802,7 +820,7 @@
                                         <td>Elements must meet minimum color contrast ratio thresholds</td>
                                         <td>color-contrast</td>
                                         <td>WCAG 2 Level AA, WCAG 1.4.3</td>
-                                        <td>10</td>
+                                        <td>9</td>
                                     </tr>
                                 </tbody>
                             </table>

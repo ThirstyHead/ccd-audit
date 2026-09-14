@@ -103,7 +103,7 @@
                     <br />
                 </div>
             </div>
-            <h2>axe-core found <span class="badge badge-warning">2</span> violations</h2>
+            <h2>axe-core found <span class="badge badge-warning">4</span> violations</h2>
             <table class="table table-striped table-bordered">
                 <thead>
                     <tr>
@@ -118,19 +118,19 @@
                 <tbody>
                     <tr>
                         <th scope="row"><a href="#1" class="card-link">1</a></th>
-                        <td>Elements must only use permitted ARIA attributes</td>
-                        <td>aria-prohibited-attr</td>
-                        <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                        <td>serious</td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <th scope="row"><a href="#2" class="card-link">2</a></th>
                         <td>Elements must meet minimum color contrast ratio thresholds</td>
                         <td>color-contrast</td>
                         <td>WCAG 2 Level AA, WCAG 1.4.3</td>
                         <td>serious</td>
                         <td>1</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><a href="#2" class="card-link">2</a></th>
+                        <td>Select element must have an accessible name</td>
+                        <td>select-name</td>
+                        <td>WCAG 2 Level A, WCAG 4.1.2</td>
+                        <td>critical</td>
+                        <td>3</td>
                     </tr>
                 </tbody>
             </table>
@@ -139,84 +139,7 @@
                 <div class="card-body">
                     <div class="violationCardLine">
                         <p class="card-title">
-                            <a id="1">1.</a> Elements must only use permitted ARIA attributes
-                        </p>
-                        <a
-                            href="https:&#x2F;&#x2F;dequeuniversity.com&#x2F;rules&#x2F;axe&#x2F;4.13&#x2F;aria-prohibited-attr?application&#x3D;playwright"
-                            target="_blank"
-                            class="card-link violationCardTitleItem learnMore"
-                            >Learn more</a
-                        >
-                    </div>
-                    <div class="violationCardLine">
-                        <p class="card-subtitle mb-2 text-muted">aria-prohibited-attr</p>
-                        <p class="card-subtitle mb-2 text-muted violationCardTitleItem">
-                            WCAG 2 Level A, WCAG 4.1.2
-                        </p>
-                    </div>
-                    <div class="violationCardLine">
-                        <p class="card-text">Ensure ARIA attributes are not prohibited for an element&#39;s role</p>
-                        <p class="card-subtitle mb-2 text-muted violationCardTitleItem">
-                            serious
-                        </p>
-                    </div>
-                    <div class="violationCardLine">
-                        <p class="card-subtitle mb-2 text-muted violationCardTitleItem">
-                            Issue Tags: 
-                            <span class="badge bg-light text-dark"> cat.aria </span>
-
-                            <span class="badge bg-light text-dark"> wcag2a </span>
-
-                            <span class="badge bg-light text-dark"> wcag412 </span>
-
-                            <span class="badge bg-light text-dark"> EN-301-549 </span>
-
-                            <span class="badge bg-light text-dark"> EN-9.4.1.2 </span>
-
-                            <span class="badge bg-light text-dark"> RGAAv4 </span>
-
-                            <span class="badge bg-light text-dark"> RGAA-7.1.1 </span>
-                        </p>
-                    </div>
-                    <div class="violationNode">
-                        <table class="table table-sm table-bordered">
-                            <thead>
-                                <tr>
-                                    <th style="width: 2%">#</th>
-                                    <th style="width: 49%">Issue Description</th>
-                                    <th style="width: 49%">
-                                        To solve this violation, you need to...
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>
-                                        <p><strong>Element location</strong></p>
-                                        <pre><code class="css text-wrap">#main-content</code></pre>
-                                        <p><strong>Element source</strong></p>
-                                        <pre><code class="html text-wrap">&lt;a id&#x3D;&quot;main-content&quot; aria-label&#x3D;&quot;Open this option&quot; data-uw-rm-empty-ctrl&#x3D;&quot;&quot;&gt;&lt;&#x2F;a&gt;</code></pre>
-                                    </td>
-                                    <td>
-                                        <div class="wrapBreakWord">
-                                            <p>Fix all of the following:</p>
-                                            <ul class="text-muted">
-                                                <li>  aria-label attribute cannot be used on a a with no valid role attribute.</li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-            <div class="card violationCard">
-                <div class="card-body">
-                    <div class="violationCardLine">
-                        <p class="card-title">
-                            <a id="2">2.</a> Elements must meet minimum color contrast ratio thresholds
+                            <a id="1">1.</a> Elements must meet minimum color contrast ratio thresholds
                         </p>
                         <a
                             href="https:&#x2F;&#x2F;dequeuniversity.com&#x2F;rules&#x2F;axe&#x2F;4.13&#x2F;color-contrast?application&#x3D;playwright"
@@ -279,7 +202,7 @@
                                         <p><strong>Element location</strong></p>
                                         <pre><code class="css text-wrap">#edit-text</code></pre>
                                         <p><strong>Element source</strong></p>
-                                        <pre><code class="html text-wrap">&lt;input placeholder&#x3D;&quot;Search by Name or #&quot; data-drupal-selector&#x3D;&quot;edit-text&quot; type&#x3D;&quot;text&quot; id&#x3D;&quot;edit-text&quot; name&#x3D;&quot;text&quot; value&#x3D;&quot;&quot; size&#x3D;&quot;30&quot; maxlength&#x3D;&quot;128&quot; class&#x3D;&quot;form-control&quot; data-uw-rm-form&#x3D;&quot;fx&quot; aria-label&#x3D;&quot;Search by Name or #&quot;&gt;</code></pre>
+                                        <pre><code class="html text-wrap">&lt;input placeholder&#x3D;&quot;Search by Name or #&quot; data-drupal-selector&#x3D;&quot;edit-text&quot; type&#x3D;&quot;text&quot; id&#x3D;&quot;edit-text&quot; name&#x3D;&quot;text&quot; value&#x3D;&quot;&quot; size&#x3D;&quot;30&quot; maxlength&#x3D;&quot;128&quot; class&#x3D;&quot;form-control&quot;&gt;</code></pre>
                                     </td>
                                     <td>
                                         <div class="wrapBreakWord">
@@ -290,6 +213,142 @@
                                         </div>
                                         <p><strong>Related node:</strong></p>
                                         <pre><code class="css text-wrap">#edit-text</code></pre>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="card violationCard">
+                <div class="card-body">
+                    <div class="violationCardLine">
+                        <p class="card-title">
+                            <a id="2">2.</a> Select element must have an accessible name
+                        </p>
+                        <a
+                            href="https:&#x2F;&#x2F;dequeuniversity.com&#x2F;rules&#x2F;axe&#x2F;4.13&#x2F;select-name?application&#x3D;playwright"
+                            target="_blank"
+                            class="card-link violationCardTitleItem learnMore"
+                            >Learn more</a
+                        >
+                    </div>
+                    <div class="violationCardLine">
+                        <p class="card-subtitle mb-2 text-muted">select-name</p>
+                        <p class="card-subtitle mb-2 text-muted violationCardTitleItem">
+                            WCAG 2 Level A, WCAG 4.1.2
+                        </p>
+                    </div>
+                    <div class="violationCardLine">
+                        <p class="card-text">Ensure select element has an accessible name</p>
+                        <p class="card-subtitle mb-2 text-muted violationCardTitleItem">
+                            critical
+                        </p>
+                    </div>
+                    <div class="violationCardLine">
+                        <p class="card-subtitle mb-2 text-muted violationCardTitleItem">
+                            Issue Tags: 
+                            <span class="badge bg-light text-dark"> cat.forms </span>
+
+                            <span class="badge bg-light text-dark"> wcag2a </span>
+
+                            <span class="badge bg-light text-dark"> wcag412 </span>
+
+                            <span class="badge bg-light text-dark"> section508 </span>
+
+                            <span class="badge bg-light text-dark"> section508.22.n </span>
+
+                            <span class="badge bg-light text-dark"> TTv5 </span>
+
+                            <span class="badge bg-light text-dark"> TT5.c </span>
+
+                            <span class="badge bg-light text-dark"> EN-301-549 </span>
+
+                            <span class="badge bg-light text-dark"> EN-9.4.1.2 </span>
+
+                            <span class="badge bg-light text-dark"> ACT </span>
+
+                            <span class="badge bg-light text-dark"> RGAAv4 </span>
+
+                            <span class="badge bg-light text-dark"> RGAA-11.1.1 </span>
+                        </p>
+                    </div>
+                    <div class="violationNode">
+                        <table class="table table-sm table-bordered">
+                            <thead>
+                                <tr>
+                                    <th style="width: 2%">#</th>
+                                    <th style="width: 49%">Issue Description</th>
+                                    <th style="width: 49%">
+                                        To solve this violation, you need to...
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>
+                                        <p><strong>Element location</strong></p>
+                                        <pre><code class="css text-wrap">#edit-organization</code></pre>
+                                        <p><strong>Element source</strong></p>
+                                        <pre><code class="html text-wrap">&lt;select data-drupal-selector&#x3D;&quot;edit-organization&quot; id&#x3D;&quot;edit-organization&quot; name&#x3D;&quot;organization&quot; class&#x3D;&quot;form-select&quot;&gt;</code></pre>
+                                    </td>
+                                    <td>
+                                        <div class="wrapBreakWord">
+                                            <p>Fix any of the following:</p>
+                                            <ul class="text-muted">
+                                                <li>  Element does not have an implicit (wrapped) &lt;label&gt;</li>
+                                                <li>  Element does not have an explicit &lt;label&gt;</li>
+                                                <li>  aria-label attribute does not exist or is empty</li>
+                                                <li>  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty</li>
+                                                <li>  Element has no title attribute</li>
+                                                <li>  Element&#39;s default semantics were not overridden with role&#x3D;&quot;none&quot; or role&#x3D;&quot;presentation&quot;</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>
+                                        <p><strong>Element location</strong></p>
+                                        <pre><code class="css text-wrap">#edit-program</code></pre>
+                                        <p><strong>Element source</strong></p>
+                                        <pre><code class="html text-wrap">&lt;select data-drupal-selector&#x3D;&quot;edit-program&quot; id&#x3D;&quot;edit-program&quot; name&#x3D;&quot;program&quot; class&#x3D;&quot;form-select&quot;&gt;</code></pre>
+                                    </td>
+                                    <td>
+                                        <div class="wrapBreakWord">
+                                            <p>Fix any of the following:</p>
+                                            <ul class="text-muted">
+                                                <li>  Element does not have an implicit (wrapped) &lt;label&gt;</li>
+                                                <li>  Element does not have an explicit &lt;label&gt;</li>
+                                                <li>  aria-label attribute does not exist or is empty</li>
+                                                <li>  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty</li>
+                                                <li>  Element has no title attribute</li>
+                                                <li>  Element&#39;s default semantics were not overridden with role&#x3D;&quot;none&quot; or role&#x3D;&quot;presentation&quot;</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>
+                                        <p><strong>Element location</strong></p>
+                                        <pre><code class="css text-wrap">#edit-audience</code></pre>
+                                        <p><strong>Element source</strong></p>
+                                        <pre><code class="html text-wrap">&lt;select data-drupal-selector&#x3D;&quot;edit-audience&quot; id&#x3D;&quot;edit-audience&quot; name&#x3D;&quot;audience&quot; class&#x3D;&quot;form-select&quot;&gt;</code></pre>
+                                    </td>
+                                    <td>
+                                        <div class="wrapBreakWord">
+                                            <p>Fix any of the following:</p>
+                                            <ul class="text-muted">
+                                                <li>  Element does not have an implicit (wrapped) &lt;label&gt;</li>
+                                                <li>  Element does not have an explicit &lt;label&gt;</li>
+                                                <li>  aria-label attribute does not exist or is empty</li>
+                                                <li>  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty</li>
+                                                <li>  Element has no title attribute</li>
+                                                <li>  Element&#39;s default semantics were not overridden with role&#x3D;&quot;none&quot; or role&#x3D;&quot;presentation&quot;</li>
+                                            </ul>
+                                        </div>
                                     </td>
                                 </tr>
                             </tbody>
@@ -308,7 +367,7 @@
                                 aria-expanded="false"
                                 aria-controls="passes"
                             >
-                                axe returned 31 passed axe
+                                axe returned 30 passed axe
                                 checks. Expand details on
                                 click
                             </button>
@@ -337,7 +396,7 @@
                                         <td>Elements must only use supported ARIA attributes</td>
                                         <td>aria-allowed-attr</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>37</td>
+                                        <td>24</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
@@ -351,14 +410,14 @@
                                         <td>ARIA attributes must be used as specified for the element&#39;s role</td>
                                         <td>aria-conditional-attr</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>37</td>
+                                        <td>24</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">4</th>
                                         <td>Deprecated ARIA roles must not be used</td>
                                         <td>aria-deprecated-role</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>20</td>
+                                        <td>19</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">5</th>
@@ -379,49 +438,49 @@
                                         <td>Elements must only use permitted ARIA attributes</td>
                                         <td>aria-prohibited-attr</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>35</td>
+                                        <td>23</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">8</th>
                                         <td>Required ARIA attributes must be provided</td>
                                         <td>aria-required-attr</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>20</td>
+                                        <td>19</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">9</th>
                                         <td>ARIA roles used must conform to valid values</td>
                                         <td>aria-roles</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>20</td>
+                                        <td>19</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">10</th>
                                         <td>ARIA attributes must conform to valid values</td>
                                         <td>aria-valid-attr-value</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>37</td>
+                                        <td>24</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">11</th>
                                         <td>ARIA attributes must conform to valid names</td>
                                         <td>aria-valid-attr</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>37</td>
+                                        <td>24</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">12</th>
                                         <td>Inline text spacing must be adjustable with custom stylesheets</td>
                                         <td>avoid-inline-spacing</td>
                                         <td>WCAG 2.1 Level AA, WCAG 1.4.1.2</td>
-                                        <td>18</td>
+                                        <td>17</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">13</th>
                                         <td>Buttons must have discernible text</td>
                                         <td>button-name</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>12</td>
+                                        <td>10</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">14</th>
@@ -435,7 +494,7 @@
                                         <td>Elements must meet minimum color contrast ratio thresholds</td>
                                         <td>color-contrast</td>
                                         <td>WCAG 2 Level AA, WCAG 1.4.3</td>
-                                        <td>183</td>
+                                        <td>182</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">16</th>
@@ -477,7 +536,7 @@
                                         <td>Images must have alternative text</td>
                                         <td>image-alt</td>
                                         <td>WCAG 2 Level A, WCAG 1.1.1</td>
-                                        <td>7</td>
+                                        <td>6</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">22</th>
@@ -519,31 +578,24 @@
                                         <td>Interactive controls must not be nested</td>
                                         <td>nested-interactive</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>181</td>
+                                        <td>179</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">28</th>
-                                        <td>Select element must have an accessible name</td>
-                                        <td>select-name</td>
-                                        <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>3</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">29</th>
                                         <td>Table cell headers attributes must refer to other &lt;th&gt; elements in the same table</td>
                                         <td>td-headers-attr</td>
                                         <td>WCAG 2 Level A, WCAG 1.3.1</td>
                                         <td>1</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">30</th>
+                                        <th scope="row">29</th>
                                         <td>Table headers in a data table must refer to data cells</td>
                                         <td>th-has-data-cells</td>
                                         <td>WCAG 2 Level A, WCAG 1.3.1</td>
                                         <td>1</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">31</th>
+                                        <th scope="row">30</th>
                                         <td>lang attribute must have a valid value</td>
                                         <td>valid-lang</td>
                                         <td>WCAG 2 Level AA, WCAG 3.1.2</td>

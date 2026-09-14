@@ -1,8 +1,8 @@
 {
-  "siteGenerated": "2026-09-07T11:39:53.993Z",
+  "siteGenerated": "2026-09-14T11:40:48.454Z",
   "sourceRepo": "https://github.com/ThirstyHead/audit-ccd.edu",
   "report": {
-    "generated": "2026-09-07T11:39:53.135Z",
+    "generated": "2026-09-14T11:40:47.665Z",
     "tags": [
       "wcag2a",
       "wcag2aa",
@@ -299,18 +299,17 @@
         "slug": "about-community-clinics",
         "violations": [
           {
-            "id": "link-name",
+            "id": "aria-prohibited-attr",
             "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+            "help": "Elements must only use permitted ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
             "wcag": [
               "wcag2a",
-              "wcag244",
               "wcag412"
             ],
             "nodes": 1,
             "firstTargets": [
-              "a[href=\"/\"]"
+              "#main-content"
             ]
           }
         ],
@@ -354,7 +353,7 @@
             "firstTargets": [
               ".paragraph-id-5961 > .paragraph-inner > .cta-card-details > .cta-card-description > .text-title > .field--name-field-paragraph-html-title.field--type-text.text-formatted",
               ".paragraph-id-5961 > .paragraph-inner > .cta-card-details > .cta-card-description > .text-text > .field--name-field-paragraph-text.field--type-text-long.text-formatted > p",
-              ".paragraph-id-5961 > .paragraph-inner > .cta-card-details > .text-link > .field--name-field-paragraph-cta-link.field--type-link.field--label-hidden > .btn-link.btn[target=\"_self\"]"
+              "a[aria-label=\"Learn More\"]"
             ]
           }
         ]
@@ -466,25 +465,8 @@
         "title": "Academic Advising & Student Success Center | Community College of Denver",
         "finalUrl": "https://www.ccd.edu/academic-advising-student-success-center",
         "slug": "academic-advising-student-success-center",
-        "violations": [
-          {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 3,
-            "firstTargets": [
-              "#main-content",
-              "#drop-in",
-              "#student-success"
-            ]
-          }
-        ],
-        "violationTotal": 3,
+        "violations": [],
+        "violationTotal": 0,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -534,23 +516,8 @@
         "title": "Academic Calendar | Community College of Denver",
         "finalUrl": "https://www.ccd.edu/academic-calendar",
         "slug": "academic-calendar",
-        "violations": [
-          {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 1,
-            "firstTargets": [
-              "#main-content"
-            ]
-          }
-        ],
-        "violationTotal": 1,
+        "violations": [],
+        "violationTotal": 0,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -600,21 +567,26 @@
         "slug": "academic-pathways",
         "violations": [
           {
-            "id": "aria-prohibited-attr",
+            "id": "link-name",
             "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
             "wcag": [
               "wcag2a",
+              "wcag244",
               "wcag412"
             ],
-            "nodes": 1,
+            "nodes": 48,
             "firstTargets": [
-              "#main-content"
+              ".subqueue-group-1.views-row:nth-child(1) > .views-field-rendered-entity.views-field > .field-content > .views-field > a",
+              ".subqueue-group-1.views-row:nth-child(1) > .views-field-rendered-entity.views-field > .field-content > .views-field > .field--name-field-term-image.field--type-entity-reference.field--label-hidden > a",
+              ".subqueue-group-1.views-row:nth-child(1) > .views-field-rendered-entity.views-field > .field-content > .views-field > .field--name-field-term-image.field--type-entity-reference.field--label-hidden > .media-view-mode-square.media--type-image > a",
+              ".subqueue-group-1.views-row:nth-child(1) > .views-field-rendered-entity.views-field > .field-content > .views-field > .field--name-field-term-image.field--type-entity-reference.field--label-hidden > .media-view-mode-square.media--type-image > .field--name-field-media-image.field--type-image.field--label-visually_hidden > a:nth-child(1)",
+              ".views-field > a[href$=\"business\"]"
             ]
           }
         ],
-        "violationTotal": 1,
+        "violationTotal": 48,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -714,23 +686,8 @@
         "title": "Accessibility Center | Community College of Denver",
         "finalUrl": "https://www.ccd.edu/accessibility-center",
         "slug": "accessibility-center",
-        "violations": [
-          {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 1,
-            "firstTargets": [
-              "#main-content"
-            ]
-          }
-        ],
-        "violationTotal": 1,
+        "violations": [],
+        "violationTotal": 0,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -780,23 +737,8 @@
         "title": "Accreditation | Community College of Denver",
         "finalUrl": "https://www.ccd.edu/accreditation",
         "slug": "accreditation",
-        "violations": [
-          {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 1,
-            "firstTargets": [
-              "#main-content"
-            ]
-          }
-        ],
-        "violationTotal": 1,
+        "violations": [],
+        "violationTotal": 0,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -831,25 +773,8 @@
         "title": "Admissions, Recruitment & Outreach | Community College of Denver",
         "finalUrl": "https://www.ccd.edu/admissions-recruitment-outreach",
         "slug": "admissions-recruitment-outreach",
-        "violations": [
-          {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 3,
-            "firstTargets": [
-              "#main-content",
-              "#enrollment-steps",
-              "#next-steps"
-            ]
-          }
-        ],
-        "violationTotal": 3,
+        "violations": [],
+        "violationTotal": 0,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -950,23 +875,8 @@
         "title": "Office of Registration & Records - Residency Requirements | Community College of Denver",
         "finalUrl": "https://www.ccd.edu/admissions/residency-requirements",
         "slug": "admissions-residency-requirements",
-        "violations": [
-          {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 1,
-            "firstTargets": [
-              "#main-content"
-            ]
-          }
-        ],
-        "violationTotal": 1,
+        "violations": [],
+        "violationTotal": 0,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -1040,9 +950,8 @@
               "wcag2a",
               "wcag412"
             ],
-            "nodes": 2,
+            "nodes": 1,
             "firstTargets": [
-              "#main-content",
               "#player-2589 #movie_player"
             ]
           },
@@ -1061,7 +970,7 @@
             ]
           }
         ],
-        "violationTotal": 4,
+        "violationTotal": 3,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -1111,23 +1020,8 @@
         "title": "Alumni Association | Community College of Denver",
         "finalUrl": "https://www.ccd.edu/alumni-association",
         "slug": "alumni-association",
-        "violations": [
-          {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 1,
-            "firstTargets": [
-              "#main-content"
-            ]
-          }
-        ],
-        "violationTotal": 1,
+        "violations": [],
+        "violationTotal": 0,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -1179,17 +1073,17 @@
         "slug": "blog-cityhawk-talk",
         "violations": [
           {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+            "id": "button-name",
+            "impact": "critical",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/button-name?application=playwright",
             "wcag": [
               "wcag2a",
               "wcag412"
             ],
             "nodes": 1,
             "firstTargets": [
-              "#main-content"
+              ".js-form-item-combine > .search-button[type=\"submit\"]"
             ]
           },
           {
@@ -1249,7 +1143,7 @@
             ],
             "nodes": 2,
             "firstTargets": [
-              "a[href$=\"CityHawk-Talk\"]",
+              ".views-field-display-title > a[href$=\"CityHawk-Talk\"]",
               ".active.page-item > .page-link"
             ]
           }
@@ -1262,20 +1156,6 @@
         "slug": "calendar",
         "violations": [
           {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 1,
-            "firstTargets": [
-              "#main-content"
-            ]
-          },
-          {
             "id": "color-contrast",
             "impact": "serious",
             "help": "Elements must meet minimum color contrast ratio thresholds",
@@ -1284,13 +1164,13 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 10,
+            "nodes": 11,
             "firstTargets": [
               "div:nth-child(1) > .grey.solid[target=\"\"] > .button-text",
               "div:nth-child(2) > .grey.solid[target=\"\"] > .button-text",
               "div:nth-child(3) > .grey.solid[target=\"\"] > .button-text",
               "tr:nth-child(1) > .ui-datepicker-other-month.ui-datepicker-week-end.ui-datepicker-unselectable > .ui-state-default",
-              "a[data-date=\"31\"]"
+              ".ui-datepicker-other-month.ui-datepicker-unselectable.ui-state-disabled:nth-child(2) > .ui-state-default"
             ]
           }
         ],
@@ -1323,6 +1203,19 @@
             ]
           },
           {
+            "id": "aria-valid-attr-value",
+            "impact": "critical",
+            "help": "ARIA attributes must conform to valid values",
+            "wcag": [
+              "wcag2a",
+              "wcag412"
+            ],
+            "nodes": 1,
+            "firstTargets": [
+              ".pager"
+            ]
+          },
+          {
             "id": "color-contrast",
             "impact": "serious",
             "help": "Elements must meet minimum color contrast ratio thresholds",
@@ -1330,7 +1223,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 11,
+            "nodes": 10,
             "firstTargets": [
               "h1",
               "h3[aria-level=\"2\"]",
@@ -1354,13 +1247,13 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 10,
+            "nodes": 11,
             "firstTargets": [
               "div:nth-child(1) > .grey.solid[target=\"\"] > .button-text",
               "div:nth-child(2) > .grey.solid[target=\"\"] > .button-text",
               "div:nth-child(3) > .grey.solid[target=\"\"] > .button-text",
               "tr:nth-child(1) > .ui-datepicker-other-month.ui-datepicker-week-end.ui-datepicker-unselectable > .ui-state-default",
-              "a[data-date=\"31\"]"
+              ".ui-datepicker-other-month.ui-datepicker-unselectable.ui-state-disabled:nth-child(2) > .ui-state-default"
             ]
           },
           {
@@ -1379,7 +1272,7 @@
             ]
           }
         ],
-        "violationTotal": 11,
+        "violationTotal": 12,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -1415,7 +1308,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 10,
+            "nodes": 9,
             "firstTargets": [
               ".content > h1",
               "tr:nth-child(1) > .ui-datepicker-unselectable.ui-state-disabled:nth-child(3) > .ui-state-default",
@@ -1431,20 +1324,6 @@
         "slug": "calendar-event-010826-surgical-technology-information-session",
         "violations": [
           {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 1,
-            "firstTargets": [
-              "#main-content"
-            ]
-          },
-          {
             "id": "color-contrast",
             "impact": "serious",
             "help": "Elements must meet minimum color contrast ratio thresholds",
@@ -1453,17 +1332,32 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 10,
+            "nodes": 11,
             "firstTargets": [
               "div:nth-child(1) > .grey.solid[target=\"\"] > .button-text",
               "div:nth-child(2) > .grey.solid[target=\"\"] > .button-text",
               "div:nth-child(3) > .grey.solid[target=\"\"] > .button-text",
               "tr:nth-child(1) > .ui-datepicker-other-month.ui-datepicker-week-end.ui-datepicker-unselectable > .ui-state-default",
-              "a[data-date=\"31\"]"
+              ".ui-datepicker-other-month.ui-datepicker-unselectable.ui-state-disabled:nth-child(2) > .ui-state-default"
+            ]
+          },
+          {
+            "id": "link-name",
+            "impact": "serious",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+            "wcag": [
+              "wcag2a",
+              "wcag244",
+              "wcag412"
+            ],
+            "nodes": 1,
+            "firstTargets": [
+              "a[href=\"/\"]"
             ]
           }
         ],
-        "violationTotal": 11,
+        "violationTotal": 12,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -1499,7 +1393,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 10,
+            "nodes": 9,
             "firstTargets": [
               ".content > h1",
               "tr:nth-child(1) > .ui-datepicker-unselectable.ui-state-disabled:nth-child(3) > .ui-state-default",
@@ -1515,20 +1409,6 @@
         "slug": "calendar-event-082126-medical-assistant-phlebotomy-info-session",
         "violations": [
           {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 1,
-            "firstTargets": [
-              "#main-content"
-            ]
-          },
-          {
             "id": "color-contrast",
             "impact": "serious",
             "help": "Elements must meet minimum color contrast ratio thresholds",
@@ -1537,17 +1417,32 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 10,
+            "nodes": 11,
             "firstTargets": [
               "div:nth-child(1) > .grey.solid[target=\"\"] > .button-text",
               "div:nth-child(2) > .grey.solid[target=\"\"] > .button-text",
               "div:nth-child(3) > .grey.solid[target=\"\"] > .button-text",
               "tr:nth-child(1) > .ui-datepicker-other-month.ui-datepicker-week-end.ui-datepicker-unselectable > .ui-state-default",
-              "a[data-date=\"31\"]"
+              ".ui-datepicker-other-month.ui-datepicker-unselectable.ui-state-disabled:nth-child(2) > .ui-state-default"
+            ]
+          },
+          {
+            "id": "link-name",
+            "impact": "serious",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+            "wcag": [
+              "wcag2a",
+              "wcag244",
+              "wcag412"
+            ],
+            "nodes": 1,
+            "firstTargets": [
+              "a[href=\"/\"]"
             ]
           }
         ],
-        "violationTotal": 11,
+        "violationTotal": 12,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -1583,7 +1478,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 10,
+            "nodes": 9,
             "firstTargets": [
               ".content > h1",
               "tr:nth-child(1) > .ui-datepicker-unselectable.ui-state-disabled:nth-child(3) > .ui-state-default",
@@ -1607,13 +1502,13 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 10,
+            "nodes": 11,
             "firstTargets": [
               "div:nth-child(1) > .grey.solid[target=\"\"] > .button-text",
               "div:nth-child(2) > .grey.solid[target=\"\"] > .button-text",
               "div:nth-child(3) > .grey.solid[target=\"\"] > .button-text",
               "tr:nth-child(1) > .ui-datepicker-other-month.ui-datepicker-week-end.ui-datepicker-unselectable > .ui-state-default",
-              "a[data-date=\"31\"]"
+              ".ui-datepicker-other-month.ui-datepicker-unselectable.ui-state-disabled:nth-child(2) > .ui-state-default"
             ]
           },
           {
@@ -1632,7 +1527,7 @@
             ]
           }
         ],
-        "violationTotal": 11,
+        "violationTotal": 12,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -1668,7 +1563,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 10,
+            "nodes": 9,
             "firstTargets": [
               ".content > h1",
               "tr:nth-child(1) > .ui-datepicker-unselectable.ui-state-disabled:nth-child(3) > .ui-state-default",
@@ -1692,13 +1587,13 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 10,
+            "nodes": 11,
             "firstTargets": [
               "div:nth-child(1) > .grey.solid[target=\"\"] > .button-text",
               "div:nth-child(2) > .grey.solid[target=\"\"] > .button-text",
               "div:nth-child(3) > .grey.solid[target=\"\"] > .button-text",
               "tr:nth-child(1) > .ui-datepicker-other-month.ui-datepicker-week-end.ui-datepicker-unselectable > .ui-state-default",
-              "a[data-date=\"31\"]"
+              ".ui-datepicker-other-month.ui-datepicker-unselectable.ui-state-disabled:nth-child(2) > .ui-state-default"
             ]
           },
           {
@@ -1717,7 +1612,7 @@
             ]
           }
         ],
-        "violationTotal": 11,
+        "violationTotal": 12,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -1753,7 +1648,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 10,
+            "nodes": 9,
             "firstTargets": [
               ".content > h1",
               "tr:nth-child(1) > .ui-datepicker-unselectable.ui-state-disabled:nth-child(3) > .ui-state-default",
@@ -1768,20 +1663,6 @@
         "finalUrl": "https://www.ccd.edu/cashiers-office/tuition-rates-credit-hour",
         "slug": "cashiers-office-tuition-rates-credit-hour",
         "violations": [
-          {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 1,
-            "firstTargets": [
-              "#main-content"
-            ]
-          },
           {
             "id": "color-contrast",
             "impact": "serious",
@@ -1798,7 +1679,7 @@
             ]
           }
         ],
-        "violationTotal": 3,
+        "violationTotal": 2,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -1850,17 +1731,17 @@
         "slug": "ccd-foundation",
         "violations": [
           {
-            "id": "aria-prohibited-attr",
+            "id": "frame-title",
             "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+            "help": "Frames must have an accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/frame-title?application=playwright",
             "wcag": [
               "wcag2a",
               "wcag412"
             ],
             "nodes": 1,
             "firstTargets": [
-              "#main-content"
+              "iframe[width=\"100%\"]"
             ]
           }
         ],
@@ -1967,17 +1848,18 @@
         "slug": "ccd-transfer-agreements",
         "violations": [
           {
-            "id": "aria-prohibited-attr",
+            "id": "link-name",
             "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
             "wcag": [
               "wcag2a",
+              "wcag244",
               "wcag412"
             ],
             "nodes": 1,
             "firstTargets": [
-              "#main-content"
+              "a[href=\"/\"]"
             ]
           }
         ],
@@ -2016,24 +1898,8 @@
         "title": "Center for Workforce Initiatives (New 2026 update) | Community College of Denver",
         "finalUrl": "https://www.ccd.edu/center-workforce-initiatives",
         "slug": "center-workforce-initiatives",
-        "violations": [
-          {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 2,
-            "firstTargets": [
-              "#main-content",
-              "#cwi\\ services\\ "
-            ]
-          }
-        ],
-        "violationTotal": 2,
+        "violations": [],
+        "violationTotal": 0,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -2134,23 +2000,8 @@
         "title": "Departments | Community College of Denver",
         "finalUrl": "https://www.ccd.edu/departments",
         "slug": "departments",
-        "violations": [
-          {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 1,
-            "firstTargets": [
-              "#main-content"
-            ]
-          }
-        ],
-        "violationTotal": 1,
+        "violations": [],
+        "violationTotal": 0,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -2202,17 +2053,18 @@
         "slug": "directory",
         "violations": [
           {
-            "id": "aria-prohibited-attr",
+            "id": "link-name",
             "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
             "wcag": [
               "wcag2a",
+              "wcag244",
               "wcag412"
             ],
             "nodes": 1,
             "firstTargets": [
-              "#main-content"
+              "a[href=\"/\"]"
             ]
           }
         ],
@@ -2268,20 +2120,6 @@
         "slug": "docs",
         "violations": [
           {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 1,
-            "firstTargets": [
-              "#main-content"
-            ]
-          },
-          {
             "id": "color-contrast",
             "impact": "serious",
             "help": "Elements must meet minimum color contrast ratio thresholds",
@@ -2294,9 +2132,25 @@
             "firstTargets": [
               "#edit-text"
             ]
+          },
+          {
+            "id": "select-name",
+            "impact": "critical",
+            "help": "Select element must have an accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/select-name?application=playwright",
+            "wcag": [
+              "wcag2a",
+              "wcag412"
+            ],
+            "nodes": 3,
+            "firstTargets": [
+              "#edit-organization",
+              "#edit-program",
+              "#edit-audience"
+            ]
           }
         ],
-        "violationTotal": 2,
+        "violationTotal": 4,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -2348,20 +2202,6 @@
         "slug": "docs-auraria-campus-maps",
         "violations": [
           {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 1,
-            "firstTargets": [
-              "#main-content"
-            ]
-          },
-          {
             "id": "color-contrast",
             "impact": "serious",
             "help": "Elements must meet minimum color contrast ratio thresholds",
@@ -2375,6 +2215,21 @@
               ".field--name-field-document-type",
               ".field__label",
               ".field--name-node-changed-date > .field__item"
+            ]
+          },
+          {
+            "id": "link-name",
+            "impact": "serious",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+            "wcag": [
+              "wcag2a",
+              "wcag244",
+              "wcag412"
+            ],
+            "nodes": 1,
+            "firstTargets": [
+              "a[href=\"/\"]"
             ]
           }
         ],
@@ -2466,22 +2321,39 @@
         "slug": "educational-opportunity-center",
         "violations": [
           {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+            "id": "image-alt",
+            "impact": "critical",
+            "help": "Images must have alternative text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright",
             "wcag": [
               "wcag2a",
+              "wcag111"
+            ],
+            "nodes": 1,
+            "firstTargets": [
+              ".views-row.animated:nth-child(4) > .views-field.views-field-rendered-entity > .field-content > .node--type-directory.node--view-mode-card.ds-2col-fluid > .group-right > .field--name-field-directory-image.field--type-entity-reference.field--label-hidden > .image-style-medium[width=\"220\"][height=\"220\"]"
+            ]
+          },
+          {
+            "id": "link-name",
+            "impact": "serious",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+            "wcag": [
+              "wcag2a",
+              "wcag244",
               "wcag412"
             ],
-            "nodes": 2,
+            "nodes": 4,
             "firstTargets": [
-              "#main-content",
-              "#events"
+              ".col-1-2:nth-child(1) > a[data-gallery=\"\"][data-caption=\"\"][data-credit=\"\"]",
+              ".col-1-2:nth-child(1) > figure > a[data-gallery=\"\"][data-caption=\"\"][data-credit=\"\"]",
+              ".col-last > a[data-gallery=\"\"][data-caption=\"\"][data-credit=\"\"]",
+              ".col-last > figure > a[data-gallery=\"\"][data-caption=\"\"][data-credit=\"\"]"
             ]
           }
         ],
-        "violationTotal": 2,
+        "violationTotal": 5,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -2555,11 +2427,9 @@
               "wcag2a",
               "wcag412"
             ],
-            "nodes": 3,
+            "nodes": 1,
             "firstTargets": [
-              "#main-content",
-              "#player-7290 #movie_player",
-              "#events"
+              "#player-7290 #movie_player"
             ]
           },
           {
@@ -2575,9 +2445,23 @@
             "firstTargets": [
               "#player-7290 .ytmVideoInfoChannelAvatar"
             ]
+          },
+          {
+            "id": "image-alt",
+            "impact": "critical",
+            "help": "Images must have alternative text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright",
+            "wcag": [
+              "wcag2a",
+              "wcag111"
+            ],
+            "nodes": 1,
+            "firstTargets": [
+              ".animated.views-row:nth-child(4) > .views-field-rendered-entity.views-field > .field-content > .node--type-directory.node--view-mode-card.ds-2col-fluid > .group-right > .field--name-field-directory-image.field--type-entity-reference.field--label-hidden > .image-style-medium[width=\"220\"][height=\"220\"]"
+            ]
           }
         ],
-        "violationTotal": 5,
+        "violationTotal": 4,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -2699,6 +2583,20 @@
         "slug": "financial-aid-scholarships-guide-financial-aid-calculating-cost-attend-ccd",
         "violations": [
           {
+            "id": "aria-prohibited-attr",
+            "impact": "serious",
+            "help": "Elements must only use permitted ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+            "wcag": [
+              "wcag2a",
+              "wcag412"
+            ],
+            "nodes": 1,
+            "firstTargets": [
+              "#main-content"
+            ]
+          },
+          {
             "id": "color-contrast",
             "impact": "serious",
             "help": "Elements must meet minimum color contrast ratio thresholds",
@@ -2717,7 +2615,7 @@
             ]
           }
         ],
-        "violationTotal": 7,
+        "violationTotal": 8,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -2967,17 +2865,17 @@
         "slug": "honors-programs-societies",
         "violations": [
           {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+            "id": "image-alt",
+            "impact": "critical",
+            "help": "Images must have alternative text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright",
             "wcag": [
               "wcag2a",
-              "wcag412"
+              "wcag111"
             ],
             "nodes": 1,
             "firstTargets": [
-              "#main-content"
+              ".animated.views-row:nth-child(1) > .views-field.views-field-rendered-entity > .field-content > .node--type-directory.node--view-mode-card.ds-2col-fluid > .group-right > .field--name-field-directory-image.field--type-entity-reference.field--label-hidden > .image-style-medium[width=\"220\"][height=\"220\"]"
             ]
           }
         ],
@@ -3033,17 +2931,18 @@
         "slug": "how-do-i-make-complaint-or-appeal",
         "violations": [
           {
-            "id": "aria-prohibited-attr",
+            "id": "link-name",
             "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
             "wcag": [
               "wcag2a",
+              "wcag244",
               "wcag412"
             ],
             "nodes": 1,
             "firstTargets": [
-              "#main-content"
+              "a[href=\"/\"]"
             ]
           }
         ],
@@ -3082,23 +2981,8 @@
         "title": "HSI | Community College of Denver",
         "finalUrl": "https://www.ccd.edu/hsi",
         "slug": "hsi",
-        "violations": [
-          {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 1,
-            "firstTargets": [
-              "#main-content"
-            ]
-          }
-        ],
-        "violationTotal": 1,
+        "violations": [],
+        "violationTotal": 0,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -3148,21 +3032,22 @@
         "slug": "human-resources",
         "violations": [
           {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+            "id": "image-alt",
+            "impact": "critical",
+            "help": "Images must have alternative text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright",
             "wcag": [
               "wcag2a",
-              "wcag412"
+              "wcag111"
             ],
-            "nodes": 1,
+            "nodes": 2,
             "firstTargets": [
-              "#main-content"
+              ".views-row.animated:nth-child(1) > .views-field.views-field-rendered-entity > .field-content > .node--type-directory.node--view-mode-card.ds-2col-fluid > .group-right > .field--name-field-directory-image.field--type-entity-reference.field--label-hidden > .image-style-medium[width=\"220\"][height=\"220\"]",
+              ".views-row.animated:nth-child(2) > .views-field.views-field-rendered-entity > .field-content > .node--type-directory.node--view-mode-card.ds-2col-fluid > .group-right > .field--name-field-directory-image.field--type-entity-reference.field--label-hidden > .image-style-medium[width=\"220\"][height=\"220\"]"
             ]
           }
         ],
-        "violationTotal": 1,
+        "violationTotal": 2,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -3347,8 +3232,23 @@
         "title": "International Students | Community College of Denver",
         "finalUrl": "https://www.ccd.edu/international-students",
         "slug": "international-students",
-        "violations": [],
-        "violationTotal": 0,
+        "violations": [
+          {
+            "id": "aria-prohibited-attr",
+            "impact": "serious",
+            "help": "Elements must only use permitted ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+            "wcag": [
+              "wcag2a",
+              "wcag412"
+            ],
+            "nodes": 1,
+            "firstTargets": [
+              "#main-content"
+            ]
+          }
+        ],
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -3452,26 +3352,21 @@
         "slug": "marketing-and-communications",
         "violations": [
           {
-            "id": "link-name",
+            "id": "aria-prohibited-attr",
             "impact": "serious",
-            "help": "Links must have discernible text",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/link-name?application=playwright",
+            "help": "Elements must only use permitted ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
             "wcag": [
               "wcag2a",
-              "wcag244",
               "wcag412"
             ],
-            "nodes": 12,
+            "nodes": 1,
             "firstTargets": [
-              ".paragraph-id-4488 > .paragraph-inner > .text-text > .field--name-field-paragraph-text.field--type-text-long.text-formatted > a[data-gallery=\"\"][data-caption=\"\"][data-credit=\"\"]",
-              ".paragraph-id-4488 > .paragraph-inner > .text-text > .field--name-field-paragraph-text.field--type-text-long.text-formatted > figure > a[data-gallery=\"\"][data-caption=\"\"][data-credit=\"\"]",
-              ".paragraph-id-5041 > .paragraph-inner > .text-text > .field--name-field-paragraph-text.field--type-text-long.text-formatted > a[data-gallery=\"\"][data-caption=\"\"][data-credit=\"\"]",
-              ".paragraph-id-5041 > .paragraph-inner > .text-text > .field--name-field-paragraph-text.field--type-text-long.text-formatted > figure > a[data-gallery=\"\"][data-caption=\"\"][data-credit=\"\"]",
-              ".paragraph-id-5042 > .paragraph-inner > .text-text > .field--name-field-paragraph-text.field--type-text-long.text-formatted > a[data-gallery=\"\"][data-caption=\"\"][data-credit=\"\"]"
+              "#main-content"
             ]
           }
         ],
-        "violationTotal": 12,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -3668,23 +3563,8 @@
         "title": "Human Resources - Nondiscrimination/Title IX | Community College of Denver",
         "finalUrl": "https://www.ccd.edu/nondiscriminationtitle-ix",
         "slug": "nondiscriminationtitle-ix",
-        "violations": [
-          {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 1,
-            "firstTargets": [
-              "#main-content"
-            ]
-          }
-        ],
-        "violationTotal": 1,
+        "violations": [],
+        "violationTotal": 0,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -3734,23 +3614,8 @@
         "title": "Office of Emergency Management | Community College of Denver",
         "finalUrl": "https://www.ccd.edu/office-emergency-management",
         "slug": "office-emergency-management",
-        "violations": [
-          {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 1,
-            "firstTargets": [
-              "#main-content"
-            ]
-          }
-        ],
-        "violationTotal": 1,
+        "violations": [],
+        "violationTotal": 0,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -3802,24 +3667,21 @@
         "slug": "office-president",
         "violations": [
           {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+            "id": "image-alt",
+            "impact": "critical",
+            "help": "Images must have alternative text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright",
             "wcag": [
               "wcag2a",
-              "wcag412"
+              "wcag111"
             ],
-            "nodes": 4,
+            "nodes": 1,
             "firstTargets": [
-              "#main-content",
-              ".field__item:nth-child(4) > .page-anchor[aria-label=\"Open this option\"][data-uw-rm-empty-ctrl=\"\"]",
-              ".field__item:nth-child(5) > .page-anchor[aria-label=\"Open this option\"][data-uw-rm-empty-ctrl=\"\"]",
-              "#hidden-front"
+              ".views-row.animated:nth-child(6) > .views-field.views-field-rendered-entity > .field-content > .node--type-directory.node--view-mode-card.ds-2col-fluid > .group-right > .field--name-field-directory-image.field--type-entity-reference.field--label-hidden > .image-style-medium[height=\"220\"][width=\"220\"]"
             ]
           }
         ],
-        "violationTotal": 4,
+        "violationTotal": 1,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -3935,23 +3797,8 @@
         "title": "Office of Registration & Records - Registering for Classes | Community College of Denver",
         "finalUrl": "https://www.ccd.edu/office-registration-and-records/registering-classes",
         "slug": "office-registration-and-records-registering-classes",
-        "violations": [
-          {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 1,
-            "firstTargets": [
-              "#main-content"
-            ]
-          }
-        ],
-        "violationTotal": 1,
+        "violations": [],
+        "violationTotal": 0,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -4001,23 +3848,8 @@
         "title": "Office of Registration & Records - Transfer and Prior Learning Assessment | Community College of Denver",
         "finalUrl": "https://www.ccd.edu/office-registration-and-records/transfer-and-prior-learning-assessment-your-questions-answered",
         "slug": "office-registration-and-records-transfer-and-prior-learning-assessment-your-questions-answered",
-        "violations": [
-          {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 1,
-            "firstTargets": [
-              "#main-content"
-            ]
-          }
-        ],
-        "violationTotal": 1,
+        "violations": [],
+        "violationTotal": 0,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -4184,24 +4016,8 @@
         "title": "Presidential Search | Community College of Denver",
         "finalUrl": "https://www.ccd.edu/presidential-search",
         "slug": "presidential-search",
-        "violations": [
-          {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 2,
-            "firstTargets": [
-              "#main-content",
-              "#contact"
-            ]
-          }
-        ],
-        "violationTotal": 2,
+        "violations": [],
+        "violationTotal": 0,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -4302,27 +4118,8 @@
         "title": "Programs A-Z | Community College of Denver",
         "finalUrl": "https://www.ccd.edu/programs",
         "slug": "programs",
-        "violations": [
-          {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 65,
-            "firstTargets": [
-              "#main-content",
-              "tr:nth-child(1) > .views-field-title[headers=\"view-nothing-table-column\"] > a[name=\"A\"][aria-label=\"Open this option\"][data-uw-rm-empty-ctrl=\"\"]",
-              "tr:nth-child(2) > .views-field-title[headers=\"view-nothing-table-column\"] > a[name=\"A\"][aria-label=\"Open this option\"][data-uw-rm-empty-ctrl=\"\"]",
-              "tr:nth-child(3) > .views-field-title[headers=\"view-nothing-table-column\"] > a[name=\"A\"][aria-label=\"Open this option\"][data-uw-rm-empty-ctrl=\"\"]",
-              "tr:nth-child(4) > .views-field-title[headers=\"view-nothing-table-column\"] > a[name=\"A\"][aria-label=\"Open this option\"][data-uw-rm-empty-ctrl=\"\"]"
-            ]
-          }
-        ],
-        "violationTotal": 65,
+        "violations": [],
+        "violationTotal": 0,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -4420,27 +4217,8 @@
         "title": "Student Conduct & Support | Community College of Denver",
         "finalUrl": "https://www.ccd.edu/student-conduct-support",
         "slug": "student-conduct-support",
-        "violations": [
-          {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 5,
-            "firstTargets": [
-              "#main-content",
-              "#careteam",
-              "#studentconduct",
-              "#academic-integrity",
-              "#faq"
-            ]
-          }
-        ],
-        "violationTotal": 5,
+        "violations": [],
+        "violationTotal": 0,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -4541,23 +4319,8 @@
         "title": "Student Hub | Community College of Denver",
         "finalUrl": "https://www.ccd.edu/student-hub",
         "slug": "student-hub",
-        "violations": [
-          {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 1,
-            "firstTargets": [
-              "#main-content"
-            ]
-          }
-        ],
-        "violationTotal": 1,
+        "violations": [],
+        "violationTotal": 0,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -4593,7 +4356,7 @@
               "wcag2aa",
               "wcag143"
             ],
-            "nodes": 76,
+            "nodes": 85,
             "firstTargets": [
               ".home-text",
               ".breadcrumb-item.active > span",
@@ -4609,17 +4372,17 @@
         "slug": "student-programming-activities-resource-center-sparc",
         "violations": [
           {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+            "id": "image-alt",
+            "impact": "critical",
+            "help": "Images must have alternative text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright",
             "wcag": [
               "wcag2a",
-              "wcag412"
+              "wcag111"
             ],
             "nodes": 1,
             "firstTargets": [
-              "#main-content"
+              ".animated.views-row:nth-child(6) > .views-field.views-field-rendered-entity > .field-content > .node--type-directory.node--view-mode-card.ds-2col-fluid > .group-right > .field--name-field-directory-image.field--type-entity-reference.field--label-hidden > .image-style-medium[width=\"220\"][height=\"220\"]"
             ]
           }
         ],
@@ -4673,23 +4436,8 @@
         "title": "SPARC - Health and Wellbeing | Community College of Denver",
         "finalUrl": "https://www.ccd.edu/student-programming-activities-resource-center-sparc/resource-center/health-and-wellbeing",
         "slug": "student-programming-activities-resource-center-sparc-resource-center-health-and-wellbeing",
-        "violations": [
-          {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 1,
-            "firstTargets": [
-              "#main-content"
-            ]
-          }
-        ],
-        "violationTotal": 1,
+        "violations": [],
+        "violationTotal": 0,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
@@ -4920,20 +4668,6 @@
         "slug": "veterans-services-center",
         "violations": [
           {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 1,
-            "firstTargets": [
-              "#main-content"
-            ]
-          },
-          {
             "id": "color-contrast",
             "impact": "serious",
             "help": "Elements must meet minimum color contrast ratio thresholds",
@@ -4945,6 +4679,20 @@
             "nodes": 1,
             "firstTargets": [
               "#tab-4397-1"
+            ]
+          },
+          {
+            "id": "image-alt",
+            "impact": "critical",
+            "help": "Images must have alternative text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/image-alt?application=playwright",
+            "wcag": [
+              "wcag2a",
+              "wcag111"
+            ],
+            "nodes": 1,
+            "firstTargets": [
+              ".image-style-medium"
             ]
           }
         ],
@@ -4998,24 +4746,8 @@
         "title": "Why CCD? | Community College of Denver",
         "finalUrl": "https://www.ccd.edu/whyccd",
         "slug": "whyccd",
-        "violations": [
-          {
-            "id": "aria-prohibited-attr",
-            "impact": "serious",
-            "help": "Elements must only use permitted ARIA attributes",
-            "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
-            "wcag": [
-              "wcag2a",
-              "wcag412"
-            ],
-            "nodes": 2,
-            "firstTargets": [
-              "#main-content",
-              "#pathway"
-            ]
-          }
-        ],
-        "violationTotal": 2,
+        "violations": [],
+        "violationTotal": 0,
         "incomplete": [
           {
             "id": "aria-hidden-focus",
