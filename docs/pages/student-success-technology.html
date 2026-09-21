@@ -103,7 +103,7 @@
                     <br />
                 </div>
             </div>
-            <h2>axe-core found <span class="badge badge-warning">2</span> violations</h2>
+            <h2>axe-core found <span class="badge badge-warning">3</span> violations</h2>
             <table class="table table-striped table-bordered">
                 <thead>
                     <tr>
@@ -130,7 +130,7 @@
                         <td>aria-prohibited-attr</td>
                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
                         <td>serious</td>
-                        <td>1</td>
+                        <td>2</td>
                     </tr>
                 </tbody>
             </table>
@@ -272,10 +272,27 @@
                                     <td>1</td>
                                     <td>
                                         <p><strong>Element location</strong></p>
+                                        <pre><code class="css text-wrap">#main-content</code></pre>
+                                        <p><strong>Element source</strong></p>
+                                        <pre><code class="html text-wrap">&lt;a id&#x3D;&quot;main-content&quot; aria-label&#x3D;&quot;Open this option&quot; data-uw-rm-empty-ctrl&#x3D;&quot;&quot;&gt;&lt;&#x2F;a&gt;</code></pre>
+                                    </td>
+                                    <td>
+                                        <div class="wrapBreakWord">
+                                            <p>Fix all of the following:</p>
+                                            <ul class="text-muted">
+                                                <li>  aria-label attribute cannot be used on a a with no valid role attribute.</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>
+                                        <p><strong>Element location</strong></p>
                                         <pre><code class="css text-wrap">#player-6825
 #movie_player</code></pre>
                                         <p><strong>Element source</strong></p>
-                                        <pre><code class="html text-wrap">&lt;div class&#x3D;&quot;html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode&quot; tabindex&#x3D;&quot;&quot; id&#x3D;&quot;movie_player&quot; data-version&#x3D;&quot;&#x2F;s&#x2F;player&#x2F;8c3fda2d&#x2F;player_embed_es6.vflset&#x2F;en_US&#x2F;base.js&quot; aria-label&#x3D;&quot;YouTube Video Player&quot;&gt;</code></pre>
+                                        <pre><code class="html text-wrap">&lt;div class&#x3D;&quot;html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode&quot; tabindex&#x3D;&quot;&quot; id&#x3D;&quot;movie_player&quot; data-version&#x3D;&quot;&#x2F;s&#x2F;player&#x2F;4fd832e7&#x2F;player_embed_es6.vflset&#x2F;en_US&#x2F;base.js&quot; aria-label&#x3D;&quot;YouTube Video Player&quot;&gt;</code></pre>
                                     </td>
                                     <td>
                                         <div class="wrapBreakWord">
@@ -331,7 +348,7 @@
                                         <td>Elements must only use supported ARIA attributes</td>
                                         <td>aria-allowed-attr</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>28</td>
+                                        <td>62</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
@@ -345,7 +362,7 @@
                                         <td>ARIA attributes must be used as specified for the element&#39;s role</td>
                                         <td>aria-conditional-attr</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>29</td>
+                                        <td>63</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">4</th>
@@ -373,7 +390,7 @@
                                         <td>Elements must only use permitted ARIA attributes</td>
                                         <td>aria-prohibited-attr</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>27</td>
+                                        <td>60</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">8</th>
@@ -394,14 +411,14 @@
                                         <td>ARIA attributes must conform to valid values</td>
                                         <td>aria-valid-attr-value</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>29</td>
+                                        <td>63</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">11</th>
                                         <td>ARIA attributes must conform to valid names</td>
                                         <td>aria-valid-attr</td>
                                         <td>WCAG 2 Level A, WCAG 4.1.2</td>
-                                        <td>29</td>
+                                        <td>63</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">12</th>
