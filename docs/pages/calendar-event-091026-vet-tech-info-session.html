@@ -103,7 +103,7 @@
                     <br />
                 </div>
             </div>
-            <h2>axe-core found <span class="badge badge-warning">11</span> violations</h2>
+            <h2>axe-core found <span class="badge badge-warning">12</span> violations</h2>
             <table class="table table-striped table-bordered">
                 <thead>
                     <tr>
@@ -130,7 +130,7 @@
                         <td>color-contrast</td>
                         <td>WCAG 2 Level AA, WCAG 1.4.3</td>
                         <td>serious</td>
-                        <td>10</td>
+                        <td>11</td>
                     </tr>
                 </tbody>
             </table>
@@ -429,7 +429,7 @@
                                     <td>9</td>
                                     <td>
                                         <p><strong>Element location</strong></p>
-                                        <pre><code class="css text-wrap">.ui-datepicker-days-cell-over &gt; .ui-state-default</code></pre>
+                                        <pre><code class="css text-wrap">tr:nth-child(4) &gt; .ui-datepicker-unselectable.ui-state-disabled:nth-child(2) &gt; .ui-state-default</code></pre>
                                         <p><strong>Element source</strong></p>
                                         <pre><code class="html text-wrap">&lt;span class&#x3D;&quot;ui-state-default&quot;&gt;21&lt;&#x2F;span&gt;</code></pre>
                                     </td>
@@ -441,7 +441,7 @@
                                             </ul>
                                         </div>
                                         <p><strong>Related node:</strong></p>
-                                        <pre><code class="css text-wrap">.ui-datepicker-days-cell-over &gt; .ui-state-default</code></pre>
+                                        <pre><code class="css text-wrap">tr:nth-child(4) &gt; .ui-datepicker-unselectable.ui-state-disabled:nth-child(2) &gt; .ui-state-default</code></pre>
                                     </td>
                                 </tr>
                                 <tr>
@@ -461,6 +461,25 @@
                                         </div>
                                         <p><strong>Related node:</strong></p>
                                         <pre><code class="css text-wrap">tr:nth-child(5) &gt; .ui-datepicker-week-end.ui-datepicker-unselectable.ui-state-disabled:nth-child(1) &gt; .ui-state-default</code></pre>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>
+                                        <p><strong>Element location</strong></p>
+                                        <pre><code class="css text-wrap">.ui-state-highlight</code></pre>
+                                        <p><strong>Element source</strong></p>
+                                        <pre><code class="html text-wrap">&lt;a class&#x3D;&quot;ui-state-default ui-state-highlight ui-state-active ui-state-hover&quot; href&#x3D;&quot;#&quot; aria-current&#x3D;&quot;true&quot; data-date&#x3D;&quot;28&quot; data-once&#x3D;&quot;scrollto&quot; data-uw-rm-brl&#x3D;&quot;PR&quot; data-uw-original-href&#x3D;&quot;#&quot;&gt;28&lt;&#x2F;a&gt;</code></pre>
+                                    </td>
+                                    <td>
+                                        <div class="wrapBreakWord">
+                                            <p>Fix any of the following:</p>
+                                            <ul class="text-muted">
+                                                <li>  Element has insufficient color contrast of 4.39 (foreground color: #777620, background color: #fffa90, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1</li>
+                                            </ul>
+                                        </div>
+                                        <p><strong>Related node:</strong></p>
+                                        <pre><code class="css text-wrap">.ui-state-highlight</code></pre>
                                     </td>
                                 </tr>
                             </tbody>
@@ -606,7 +625,7 @@
                                         <td>Elements must meet minimum color contrast ratio thresholds</td>
                                         <td>color-contrast</td>
                                         <td>WCAG 2 Level AA, WCAG 1.4.3</td>
-                                        <td>119</td>
+                                        <td>118</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">16</th>
